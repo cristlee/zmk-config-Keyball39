@@ -31,8 +31,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - LEFT WIN
   - $$mdi:apple-keyboard-option$$
+  - LEFT WIN
   - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
