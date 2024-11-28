@@ -86,8 +86,8 @@
             label = "SYM";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB          &kp GRAVE    &trans    &trans      &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans       &trans    &trans      &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp BACKSLASH
+&kp NUMBER_1     &kp N2       &kp N3    &kp N4      &kp N5                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&kp N6           &kp N7       &kp N8    &kp N9      &kp N0                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp BACKSLASH
 &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                 &trans
             >;
         };
@@ -95,10 +95,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp TAB  &kp GRAVE  &kp F3   &kp F4   &none                   &kp F4        &kp F1        &none  &none  &none
-&kp F5   &kp F6     &kp F7   &kp F8   &none                   &kp C_VOL_UP  &kp C_VOL_DN  &none  &none  &none
-&kp F9   &kp F10    &kp F11  &kp F12  &none                   &none         &none         &none  &none  &none
-&trans   &trans     &trans   &trans   &trans  &trans  &trans  &trans                                    &trans
+&kp TAB  &kp GRAVE  &trans  &trans  &trans                  &kp F4              &kp F5               &kp C_VOL_UP  &kp C_VOL_DN  &kp K_MUTE
+&kp Q    &trans     &trans  &trans  &trans                  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &none         &none         &none
+&trans   &trans     &trans  &trans  &trans                  &none               &none                &none         &none         &none
+&trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans                                                               &trans
             >;
         };
 
@@ -115,10 +115,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &trans  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans
             >;
         };
 
