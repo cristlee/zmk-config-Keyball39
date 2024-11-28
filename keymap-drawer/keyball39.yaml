@@ -80,13 +80,13 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - F1
-  - F2
+  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - F3
   - F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+ $$mdi:keyboard-tab$$
-  - {t: Gui+ `, s: Gui+ ~}
+  - F4
+  - F1
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
