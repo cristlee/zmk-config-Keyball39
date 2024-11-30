@@ -32,13 +32,13 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - LEFT WIN
-  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: LEFT WIN, h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-esc$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
