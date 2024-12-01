@@ -137,8 +137,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+ $$mdi:arrow-left-bold$$
   - Ctl+ $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BRI INC
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
