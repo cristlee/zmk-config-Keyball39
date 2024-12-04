@@ -73,10 +73,10 @@
 
         number {
             bindings = <
-&kp TAB  &kp GRAVE  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp Q
-&trans   &trans     &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp W
-&trans   &trans     &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&kp TAB  &kp GRAVE  &trans  &trans        &trans                  &trans  &trans  &trans  &trans  &kp Q
+&trans   &trans     &trans  &trans        &trans                  &trans  &trans  &trans  &trans  &kp W
+&trans   &trans     &trans  &trans        &trans                  &trans  &trans  &trans  &trans  &trans
+&trans   &trans     &trans  &kp LEFT_GUI  &trans  &trans  &trans  &trans                          &trans
             >;
 
             label = "NUM";
