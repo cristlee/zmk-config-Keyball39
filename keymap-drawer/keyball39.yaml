@@ -137,8 +137,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+ $$mdi:arrow-left-bold$$
   - Ctl+ $$mdi:arrow-right-bold$$
-  - BRI INC
-  - $$mdi:brightness-7$$
+  - {t: 'Gui+ [', s: 'Gui+ {'}
+  - {t: 'Gui+ ]', s: 'Gui+ }'}
   - Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
