@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: RETURN, h: SYM}
   - {t: '$$mdi:backspace$$', h: FUN}
-  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: SNIPE}
   NUM:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
@@ -129,7 +129,7 @@ layers:
   - F5
   - $$mdi:volume-high$$
   - $$mdi:volume-low$$
-  - MUTE
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,11 +145,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
