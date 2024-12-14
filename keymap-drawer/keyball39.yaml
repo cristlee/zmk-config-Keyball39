@@ -28,7 +28,7 @@ layers:
   - N
   - M
   - {t: ',', h: SCROLL, s: <}
-  - {t: ., s: '>'}
+  - {t: ., h: SNIPE, s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: SYM}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: SNIPE}
+  - $$mdi:apple-keyboard-shift$$
   NUM:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
@@ -148,7 +148,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - GLOBE
+  - Ctl+ $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -268,7 +268,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -278,4 +278,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
