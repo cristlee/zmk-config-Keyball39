@@ -5,14 +5,14 @@ layers:
   - {t: E, h: '3'}
   - {t: R, h: '4'}
   - {t: T, h: '5'}
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
+  - {t: Y, h: '6'}
+  - {t: U, h: '7'}
+  - {t: I, h: '8'}
+  - {t: O, h: '9'}
+  - {t: P, h: '0'}
+  - {t: A, h: '$$mdi:arrow-left-bold$$'}
+  - {t: S, h: '$$mdi:arrow-up-bold$$'}
+  - {t: D, h: '$$mdi:arrow-down-bold$$'}
   - {t: F, h: '$$mdi:arrow-right-bold$$'}
   - G
   - H
@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
