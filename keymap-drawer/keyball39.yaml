@@ -1,7 +1,7 @@
 layers:
   QWRT:
-  - {t: Q, h: '1'}
-  - {t: W, h: '2'}
+  - {t: Q, s: '$$mdi:keyboard-tab$$'}
+  - {t: W, s: '`'}
   - {t: E, h: '3'}
   - {t: R, h: '4'}
   - {t: T, h: '5'}
@@ -33,7 +33,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: NUM}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: SYM}
@@ -73,7 +73,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
