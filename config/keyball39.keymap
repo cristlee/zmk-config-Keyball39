@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -30,22 +31,22 @@
     // custom shift using mod-morph
 
     behaviors {
-        cmqus: comma_question {
+        qtab: qtab {
             compatible = "zmk,behavior-mod-morph";
-            label = "COMMA_QUESTION";
+            label = "qtab";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp QUESTION>;
+            bindings = <&kp Q>, <&kp TAB>;
 
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI)>;
         };
 
-        dtsmi: dot_semi {
+        w: w {
             compatible = "zmk,behavior-mod-morph";
-            label = "DOT_SEMI";
+            label = "W";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp SEMI>;
+            bindings = <&kp W>, <&kp GRAVE>;
 
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LGUI)>;
         };
     };
 
@@ -64,10 +65,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&mt NUMBER_1 Q    &mt NUMBER_2 W  &mt NUMBER_3 E    &mt NUMBER_4 R     &mt N5 T                                 &mt NUMBER_6 Y  &mt N7 U  &mt N8 I     &mt N9 O   &mt N0 P
+&qtab             &w              &mt NUMBER_3 E    &mt NUMBER_4 R     &mt N5 T                                 &mt NUMBER_6 Y  &mt N7 U  &mt N8 I     &mt N9 O   &mt N0 P
 &mt LEFT_ARROW A  &mt UP_ARROW S  &mt DOWN_ARROW D  &mt RIGHT_ARROW F  &kp G                                    &kp H           &kp J     &lt 4 K      &kp L      &kp SEMI
 &kp Z             &kp X           &kp C             &kp V              &kp B                                    &kp N           &kp M     &lt 5 COMMA  &lt 6 DOT  &kp SLASH
-&kp LEFT_SHIFT    &kp LEFT_ALT    &kp LEFT_CONTROL  &lt 1 LEFT_GUI     &lt 5 SPACE  &lt 4 TAB  &lt 2 BACKSPACE  &lt 3 ENTER                                       &kp RIGHT_SHIFT
+&kp LEFT_SHIFT    &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_GUI       &lt 5 SPACE  &lt 4 TAB  &lt 2 BACKSPACE  &lt 3 ENTER                                       &kp RIGHT_SHIFT
             >;
         };
 
