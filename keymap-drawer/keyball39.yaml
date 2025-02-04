@@ -16,7 +16,7 @@ layers:
   - {t: F, h: '$$mdi:arrow-right-bold$$'}
   - G
   - H
-  - J
+  - {t: J, s: Q}
   - {t: K, h: MOUSE}
   - L
   - {t: ;, s: ':'}
@@ -107,7 +107,7 @@ layers:
   - {t: '0', s: )}
   - _
   - +
-  - '{'
+  - {t: '`', s: '~'}
   - '}'
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,11 +145,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:keyboard-tab$$
-  - {t: '`', s: '~'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+$$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
+  - Gui+W
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
