@@ -1,7 +1,7 @@
 layers:
   QWRT:
-  - {t: Q, s: 'Gui+$$mdi:keyboard-tab$$'}
-  - {t: W, s: Gui+`}
+  - {t: Q, s: '$$mdi:keyboard-tab$$'}
+  - {t: W, s: '`'}
   - {t: E, h: '3'}
   - {t: R, h: '4'}
   - {t: T, h: '5'}
