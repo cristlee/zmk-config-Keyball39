@@ -16,7 +16,7 @@ layers:
   - F
   - G
   - H
-  - {t: J, s: Q}
+  - J
   - {t: K, h: SCROLL}
   - L
   - {t: ;, s: ':'}
@@ -35,7 +35,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:backspace$$', h: SYM}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - $$mdi:apple-keyboard-shift$$
@@ -91,8 +91,8 @@ layers:
   - (
   - )
   - {t: '`', s: '~'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - '{'
+  - '}'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '-', s: _}
@@ -100,7 +100,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
-  - {t: '6', s: ^}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -115,26 +115,26 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - F4
   - F5
   - $$mdi:volume-high$$
   - $$mdi:volume-low$$
   - $$mdi:keyboard-esc$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: 'Gui+[', s: 'Gui+{'}
@@ -147,9 +147,9 @@ layers:
   - {t: '5', s: '%'}
   - Ctl+$$mdi:keyboard-space$$
   - Gui+W
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:keyboard-tab$$
+  - Ctl+Sft+$$mdi:keyboard-tab$$
+  - Gui+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -219,9 +219,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -238,7 +238,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
