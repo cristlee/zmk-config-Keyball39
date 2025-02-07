@@ -18,7 +18,7 @@ layers:
   - H
   - {t: J, h: NUM}
   - {t: K, h: SCROLL}
-  - L
+  - {t: L, h: SYM}
   - {t: ;, s: ':'}
   - Z
   - X
@@ -98,7 +98,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: ']', s: '}', type: held alternate}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
