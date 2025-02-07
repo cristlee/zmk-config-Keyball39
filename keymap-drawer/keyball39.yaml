@@ -11,14 +11,14 @@ layers:
   - O
   - P
   - A
-  - S
+  - {t: S, h: NUM}
   - {t: D, h: SCROLL}
   - {t: F, h: SYM}
   - G
   - H
-  - {t: J, h: NUM}
+  - {t: J, h: SYM}
   - {t: K, h: SCROLL}
-  - {t: L, h: SYM}
+  - {t: L, h: NUM}
   - {t: ;, s: ':'}
   - Z
   - X
@@ -45,21 +45,21 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '7', s: '&'}
+  - {t: '7', s: '&', type: held}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (, type: held alternate}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,9 +96,9 @@ layers:
   - {type: held}
   - {t: '`', s: '~'}
   - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '=', s: +, type: held alternate}
   - {t: '[', s: '{'}
-  - {t: ']', s: '}', type: held alternate}
+  - {t: ']', s: '}'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
