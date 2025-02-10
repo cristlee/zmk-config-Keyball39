@@ -1,7 +1,7 @@
 layers:
   QWRT:
   - {t: Q, s: '$$mdi:keyboard-tab$$'}
-  - {t: W, s: '`'}
+  - {t: W, s: '$$mdi:keyboard-tab-reverse$$'}
   - E
   - R
   - T
@@ -32,7 +32,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - {t: ., h: ','}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-tab$$', h: 'Sft+$$mdi:apple-keyboard-command$$'}
@@ -128,8 +128,8 @@ layers:
   - MUTE
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+W
-  - Gui+Q
   - F6
   - F7
   - F8
@@ -139,7 +139,7 @@ layers:
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: 'Gui+[', s: 'Gui+{'}
   - {t: 'Gui+]', s: 'Gui+}'}
-  - $$mdi:keyboard-esc$$
+  - Gui+Q
   - F11
   - F12
   - F13
