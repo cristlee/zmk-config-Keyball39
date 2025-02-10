@@ -29,7 +29,7 @@ layers:
   - M
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: /, s: '?'}
+  - {t: ., s: '>'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
@@ -135,20 +135,20 @@ layers:
   - F8
   - F9
   - F10
-  - Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-right-bold$$
-  - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: 'Gui+}'}
+  - _
+  - {t: '''', s: '"'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - Gui+Q
   - F11
   - F12
   - F13
   - F14
   - F15
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab-reverse$$
-  - {t: ',', s: <}
-  - .
+  - ':'
+  - '"'
+  - (
+  - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -217,7 +217,7 @@ layers:
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:arrow-up-bold$$', type: held alternate}
+  - {type: held alternate}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:progress-download$$
