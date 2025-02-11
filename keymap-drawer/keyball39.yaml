@@ -1,7 +1,7 @@
 layers:
   QWRT:
   - {t: Q, s: '$$mdi:keyboard-tab$$'}
-  - {t: W, s: '$$mdi:keyboard-tab-reverse$$'}
+  - {t: W, s: '`'}
   - E
   - R
   - T
