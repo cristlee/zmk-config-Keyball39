@@ -156,10 +156,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans      &trans  &trans  &trans  &trans                  &kp N6         &kp N7          &kp N8    &kp N9          &kp N0
-&trans      &trans  &trans  &trans  &trans                  &kp PAGE_UP    &kp LEFT_ARROW  &kp UP    &kp DOWN_ARROW  &kp RIGHT
-&trans      &trans  &trans  &trans  &trans                  &kp PAGE_DOWN  &kp LEFT        &kp DOWN  &kp RIGHT       &bootloader
-&bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                   &bt BT_CLR
+&trans      &trans  &trans  &trans  &trans                  &kp N6         &kp N7             &kp N8    &kp N9           &kp N0
+&trans      &trans  &trans  &trans  &trans                  &kp PAGE_UP    &kp C_VOLUME_DOWN  &kp UP    &kp C_VOLUME_UP  &kp K_MUTE
+&trans      &trans  &trans  &trans  &trans                  &kp PAGE_DOWN  &kp LEFT           &kp DOWN  &kp RIGHT        &bootloader
+&bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                       &bt BT_CLR
             >;
         };
 
