@@ -94,6 +94,15 @@
             #binding-cells = <0>;
             bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
         };
+
+        click: click {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CLICK";
+            bindings = <&mkp>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
