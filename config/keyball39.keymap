@@ -136,10 +136,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &trans          &trans           &trans                &trans                 &kp ESC
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &underdash      &quotes          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &slash
-&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                                        &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &trans      &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp DOLLAR  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &underdash  &quotes        &kp LEFT_BRACE        &kp RIGHT_BRACE        &slash
+&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                                  &trans
             >;
         };
 
