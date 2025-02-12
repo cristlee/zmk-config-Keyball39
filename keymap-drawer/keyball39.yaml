@@ -99,7 +99,7 @@ layers:
   - {t: '=', s: +, type: held alternate}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
+  - '&quot'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
