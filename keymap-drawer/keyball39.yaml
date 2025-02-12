@@ -11,25 +11,25 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: NUM}
-  - {t: D, h: SCROLL}
-  - {t: F, h: SYM}
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: SYM}
-  - {t: K, h: SCROLL}
-  - {t: L, h: NUM}
+  - J
+  - K
+  - L
   - {t: ;, s: ':'}
   - Z
   - X
-  - {t: C, h: SYM}
+  - C
   - V
   - B
   - N
   - M
   - $$mdi:mouse-left-click-outline$$
+  - '&dot_comma'
   - $$mdi:mouse-right-click-outline$$
-  - {t: ., s: '>'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -38,7 +38,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: 'Sft+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   NUM:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -51,14 +51,14 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '7', s: '&', type: held}
+  - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (, type: held alternate}
+  - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -93,16 +93,16 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - {t: '-', s: _}
-  - {t: '=', s: +, type: held alternate}
+  - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&quot'
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - _
@@ -125,31 +125,31 @@ layers:
   - F3
   - F4
   - F5
-  - MUTE
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+W
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - F6
   - F7
   - F8
   - F9
   - F10
-  - _
-  - '&quot'
+  - '{'
+  - '}'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - Gui+Q
+  - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
   - F13
   - F14
   - F15
   - '&underdash'
-  - '&quot'
+  - '&quotes'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&slash'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -200,41 +200,41 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:arrow-down-bold$$', type: held}
-  - $$mdi:arrow-right-bold$$
-  - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - {type: held alternate}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ',', s: <}
-  - .
+  - PgDn
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - $$mdi:progress-download$$
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
