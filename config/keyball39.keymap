@@ -80,6 +80,20 @@
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
+
+        dotco: dotco {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOTCO";
+            #binding-cells = <0>;
+            bindings = <&kp PERIOD>, <&kp COMMA>;
+        };
+
+        quot: quot {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUOT";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+        };
     };
 
     macros {
@@ -119,7 +133,7 @@
             label = "SYM";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LEFT_SHIFT   &trans       &trans    &trans      &kp GRAVE                    &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&kp LEFT_SHIFT   &trans       &trans    &trans      &kp GRAVE                    &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &quot
 &kp LSHFT        &trans       &trans    &trans      &kp CAPS                     &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp PERIOD            &kp BACKSLASH
 &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                 &trans
             >;
