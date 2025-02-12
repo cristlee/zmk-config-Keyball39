@@ -25,7 +25,7 @@ layers:
   - C
   - V
   - B
-  - N
+  - {t: N, h: NUM}
   - M
   - $$mdi:mouse-left-click-outline$$
   - '&dot_comma'
