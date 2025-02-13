@@ -75,11 +75,11 @@
             hold-trigger-key-positions = <32>;
         };
 
-        underdash: underdash {
+        ushash: ushash {
             compatible = "zmk,behavior-tap-dance";
-            label = "UNDERDASH";
+            label = "USHASH";
             #binding-cells = <0>;
-            bindings = <&kp UNDERSCORE>, <&kp MINUS>;
+            bindings = <&kp UNDERSCORE>, <&kp HASH>;
         };
 
         slash: slash {
@@ -96,6 +96,27 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+        };
+
+        questionex: questionex {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUESTIONEX";
+            #binding-cells = <0>;
+            bindings = <&kp QUESTION>, <&kp EXCLAMATION>;
+        };
+
+        plusminus: plusminus {
+            compatible = "zmk,behavior-tap-dance";
+            label = "PLUSMINUS";
+            #binding-cells = <0>;
+            bindings = <&kp PLUS>, <&kp MINUS>;
+        };
+
+        equalat: equalat {
+            compatible = "zmk,behavior-tap-dance";
+            label = "EQUALAT";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL>, <&kp AT_SIGN>;
         };
     };
 
@@ -123,10 +144,10 @@
 
         number {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N1  &kp N2  &kp N3     &kp N4      &kp N5
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                  &kp N6  &kp N7  &kp N8     &kp N9      &kp N0
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp COMMA  &kp PERIOD  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                 &trans
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR  &kp PERCENT                  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp GRAVE   &kp N0                       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+&trans           &trans         &trans        &trans      &trans                       &trans  &trans  &trans  &trans  &trans
+&trans           &trans         &trans        &trans      &trans       &trans  &trans  &trans                          &trans
             >;
 
             label = "NUM";
@@ -145,9 +166,9 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &trans      &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp DOLLAR  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &underdash  &quotes        &kp LEFT_BRACE        &kp RIGHT_BRACE        &slash
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp DOLLAR  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &plusminus  &equalat       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &questionex
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &ushash     &quotes        &kp LEFT_BRACE        &kp RIGHT_BRACE        &slash
 &trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                                  &trans
             >;
         };
@@ -155,20 +176,20 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1          &kp N2        &kp N3          &kp N4     &kp N5                     &kp N6         &kp N7     &kp N8  &kp N9     &kp N0
-&kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &mkp LCLK                  &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK
-&none           &none         &none           &none      &none                      &kp PAGE_DOWN  &none      &trans  &trans     &trans
-&none           &trans        &trans          &trans     &trans     &trans  &trans  &trans                                       &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&none   &none   &none   &none   &none                   &trans  &none   &trans  &trans  &trans
+&none   &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans      &trans  &trans  &trans  &trans                  &kp N6         &kp N7             &kp N8    &kp N9           &kp N0
-&trans      &trans  &trans  &trans  &trans                  &kp PAGE_UP    &kp C_VOLUME_DOWN  &kp UP    &kp C_VOLUME_UP  &kp K_MUTE
-&trans      &trans  &trans  &trans  &trans                  &kp PAGE_DOWN  &kp LEFT           &kp DOWN  &kp RIGHT        &bootloader
-&bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                       &bt BT_CLR
+&trans      &trans  &trans  &trans  &trans                  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &trans     &kp K_MUTE
+&trans      &trans  &trans  &trans  &trans                  &kp PAGE_UP        &trans           &kp UP    &trans     &trans
+&trans      &trans  &trans  &trans  &trans                  &kp PAGE_DOWN      &kp LEFT         &kp DOWN  &kp RIGHT  &bootloader
+&bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                   &bt BT_CLR
             >;
         };
 
