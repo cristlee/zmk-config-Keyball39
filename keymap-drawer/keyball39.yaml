@@ -33,7 +33,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - Sft+LGUI
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -220,7 +220,7 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Gui+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
