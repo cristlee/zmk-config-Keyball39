@@ -32,7 +32,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
-  - Sft+LGUI
+  - {t: Sft+LGUI, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-tab$$
