@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -61,7 +62,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "QUOTES";
             #binding-cells = <0>;
-            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+            bindings = <&kp DOUBLE_QUOTES>, <&kp SINGLE_QUOTE>;
         };
 
         ushash: ushash {
@@ -163,8 +164,8 @@
             label = "FUN";
             bindings = <
 &kp LG(Q)  &kp LG(W)  &kp F3   &kp F4   &kp F5                   &kp DOLLAR  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC
-&kp F6     &kp F7     &kp F8   &kp F9   &kp F10                  &plusminus  &equalat       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &questionex
-&kp F11    &kp F12    &kp F13  &kp F14  &kp F15                  &ushash     &quotes        &kp LEFT_BRACE        &kp RIGHT_BRACE        &slashs
+&kp F6     &kp F7     &kp F8   &kp F9   &kp F10                  &plusminus  &equalat       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &quotes
+&kp F11    &kp F12    &kp F13  &kp F14  &kp F15                  &ushash     &questionex    &kp LEFT_BRACE        &kp RIGHT_BRACE        &slashs
 &trans     &trans     &trans   &trans   &trans   &trans  &trans  &trans                                                                  &trans
             >;
         };
