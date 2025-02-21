@@ -29,7 +29,7 @@ layers:
   - M
   - $$mdi:mouse-left-click-outline$$
   - '&dot_comma'
-  - $$mdi:mouse-right-click-outline$$
+  - {t: /, h: '$$mdi:mouse-right-click-outline$$', s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: Sft+LGUI, h: '$$mdi:gesture-tap-hold$$'}
