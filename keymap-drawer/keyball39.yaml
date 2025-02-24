@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
   - {t: Q, s: '$$mdi:keyboard-tab$$'}
@@ -10,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: SCROLL}
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - J
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: SCROLL}
-  - L
-  - '&co_semi'
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - Z
   - X
   - C
@@ -32,7 +33,7 @@ layers:
   - {t: /, h: '$$mdi:mouse-right-click-outline$$', s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
-  - {t: Sft+LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  - RIGHT GUI
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-tab$$
