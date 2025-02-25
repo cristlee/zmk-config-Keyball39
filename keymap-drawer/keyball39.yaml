@@ -31,7 +31,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '&dot_comma'
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-caps$$
   - RIGHT GUI
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -39,7 +39,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
-  - $$mdi:keyboard-esc$$
+  - GLOBE
   NUM:
   - '!'
   - '@'
