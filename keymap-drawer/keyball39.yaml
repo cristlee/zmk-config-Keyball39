@@ -121,8 +121,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
-  - Gui+Q
-  - Gui+W
+  - F1
+  - F2
   - F3
   - F4
   - F5
