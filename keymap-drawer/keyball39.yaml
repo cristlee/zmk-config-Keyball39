@@ -126,8 +126,8 @@ layers:
   - F3
   - F4
   - F5
-  - $
-  - '&'
+  - {t: '`', s: '~'}
+  - '&pipe_bsls'
   - (
   - )
   - $$mdi:keyboard-esc$$
@@ -136,21 +136,21 @@ layers:
   - F8
   - F9
   - F10
-  - '&plusminus'
-  - '&equalat'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '&quotes'
+  - '&minusExcl'
+  - '&plus_at'
+  - '&lbrak_hash'
+  - '&rbrak_dollar'
+  - '&quote_pct'
   - F11
   - F12
   - F13
   - F14
   - F15
-  - '&ushash'
+  - '&under_caret'
   - '&questionex'
-  - '{'
+  - '&lbrace_ast'
   - '}'
-  - '&slashs'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
