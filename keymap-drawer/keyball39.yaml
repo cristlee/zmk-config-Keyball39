@@ -150,7 +150,7 @@ layers:
   - '&questionex'
   - '&lbrace_ast'
   - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
