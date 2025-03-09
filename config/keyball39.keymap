@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -219,10 +220,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                   &trans         &trans             &kp UP_ARROW     &trans           &kp ESC
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                                   &kp PAGE_UP    &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp ENTER
-&trans  &trans  &trans  &trans  &trans                                   &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &trans
-&trans  &trans  &trans  &to 0   &kp LEFT_CONTROL  &trans  &kp BACKSPACE  &kp ENTER                                                           &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UP_ARROW    &trans           &kp ESC
+&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                               &kp PAGE_UP        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
+&trans  &trans  &trans  &trans  &trans                               &kp PAGE_DOWN      &trans           &trans          &trans           &to 0
+&trans  &trans  &trans  &to 0   &kp LEFT_GUI  &trans  &kp BACKSPACE  &kp ENTER                                                            &trans
             >;
         };
 
