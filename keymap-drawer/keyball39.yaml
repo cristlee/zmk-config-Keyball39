@@ -31,7 +31,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '&dot_comma'
   - {t: /, s: '?'}
-  - {t: QWRT, h: toggle}
+  - {t: SCROLL, h: toggle}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
