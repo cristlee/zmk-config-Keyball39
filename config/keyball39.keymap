@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -159,6 +160,13 @@
             #binding-cells = <0>;
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
         };
+
+        p_escape: p_escape {
+            compatible = "zmk,behavior-tap-dance";
+            label = "P_ESCAPE";
+            #binding-cells = <0>;
+            bindings = <&kp P>, <&kp ESC>;
+        };
     };
 
     combos {
@@ -182,10 +190,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&q_tab          &w_grave      &kp E             &kp R        &kp T                               &kp Y                &kp U        &kp I           &kp O              &p_esc
-&mt LEFT_ALT A  &mt LSHIFT S  &mt LEFT_GUI D    &mt LCTRL F  &kp G                               &kp H                &mt LCTRL J  &mt LEFT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
-&kp Z           &kp X         &kp C             &kp V        &kp B                               &kp N                &kp M        &mkp LCLK       &dot_comma         &kp SLASH
-&to 6           &kp CAPS      &kp LEFT_CONTROL  &lt 3 TAB    &lt 5 SPACE  &trans  &kp BACKSPACE  &mt RIGHT_GUI ENTER                                                  &to 5
+&q_tab          &w_grave      &kp E             &kp R             &kp T                               &kp Y        &kp U        &kp I            &kp O              &p_escape
+&mt LEFT_ALT A  &mt LSHIFT S  &mt LEFT_GUI D    &mt LCTRL F       &kp G                               &kp H        &mt LCTRL J  &mt RIGHT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
+&kp Z           &kp X         &kp C             &kp V             &kp B                               &kp N        &kp M        &mkp LCLK        &dot_comma         &kp SLASH
+&to 6           &kp CAPS      &kp LEFT_CONTROL  &mt LEFT_GUI TAB  &lt 5 SPACE  &trans  &kp BACKSPACE  &lt 3 ENTER                                                   &to 5
             >;
         };
 
