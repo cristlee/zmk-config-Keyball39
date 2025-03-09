@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&under_caret'
-  - '&questionex'
+  - '&questamp'
   - '&lbrace_ast'
   - '}'
   - '"'
