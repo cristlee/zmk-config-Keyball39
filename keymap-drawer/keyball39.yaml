@@ -18,7 +18,7 @@ layers:
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: RIGHT GUI}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
@@ -34,12 +34,12 @@ layers:
   - {t: SNIPE, h: toggle}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-tab$$', h: FUN}
-  - {t: FUN, h: toggle}
-  - {t: SCROLL, h: toggle}
+  - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', h: RIGHT GUI}
+  - {t: SCROLL, h: toggle}
   NUM:
   - '!'
   - '@'
@@ -154,9 +154,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWRT, h: toggle}
+  - {t: QWRT, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+$$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,16 +230,16 @@ layers:
   - {t: 'Gui+[', s: 'Gui+{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Gui+]', s: 'Gui+}'}
-  - {t: QWRT, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWRT, h: toggle}
   - {t: '$$mdi:apple-keyboard-command$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWRT, h: toggle}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
