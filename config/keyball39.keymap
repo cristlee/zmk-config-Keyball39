@@ -200,10 +200,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                  &kp GRAVE     &pipe_bsls   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &ctrlw_ctrlq
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                 &minusExcl    &plus_at     &lbrak_hash           &rbrak_dollar          &quote_pct
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                 &under_caret  &questionex  &lbrace_ast           &kp RIGHT_BRACE        &kp DOUBLE_QUOTES
-&trans   &trans   &trans   &trans   &trans   &trans  &to 5  &to 0                                                                   &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp GRAVE     &pipe_bsls   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &ctrlw_ctrlq
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &minusExcl    &plus_at     &lbrak_hash           &rbrak_dollar          &quote_pct
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &under_caret  &questionex  &lbrace_ast           &kp RIGHT_BRACE        &kp DOUBLE_QUOTES
+&trans   &trans   &trans   &trans   &trans   &trans  &trans  &to 0                                                                   &trans
             >;
         };
 
@@ -220,10 +220,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &trans         &trans             &kp UP_ARROW     &kp ESC          &kp BACKSPACE
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                           &kp PAGE_UP    &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp ENTER
-&trans  &trans  &trans  &trans  &trans                           &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp ESC
-&trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &to 3  &to 0                                                               &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                   &trans         &trans             &kp UP_ARROW     &trans           &kp ESC
+&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                                   &kp PAGE_UP    &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp ENTER
+&trans  &trans  &trans  &trans  &trans                                   &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp ESC
+&trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &kp BACKSPACE  &to 0                                                               &trans
             >;
         };
 
