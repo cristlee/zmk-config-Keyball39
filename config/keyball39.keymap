@@ -183,10 +183,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&q_tab          &w_grave      &kp E             &kp R         &kp T                        &kp Y  &kp U        &kp I            &kp O              &p_esc
-&mt LEFT_ALT A  &mt LSHIFT S  &mt LEFT_GUI D    &mt LCTRL F   &kp G                        &kp H  &mt LCTRL J  &mt RIGHT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
-&kp Z           &kp X         &kp C             &kp V         &kp B                        &kp N  &kp M        &mkp LCLK        &dot_comma         &kp SLASH
-&to 6           &kp CAPS      &kp LEFT_CONTROL  &sk LEFT_GUI  &lt 5 SPACE  &kp TAB  &to 3  &to 5                                                   &trans
+&q_tab          &w_grave      &kp E             &kp R         &kp T                          &kp Y  &kp U        &kp I            &kp O              &p_esc
+&mt LEFT_ALT A  &mt LSHIFT S  &mt LEFT_GUI D    &mt LCTRL F   &kp G                          &kp H  &mt LCTRL J  &mt RIGHT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
+&kp Z           &kp X         &kp C             &kp V         &kp B                          &kp N  &kp M        &mkp LCLK        &dot_comma         &kp SLASH
+&to 6           &kp CAPS      &kp LEFT_CONTROL  &sk LEFT_GUI  &lt 5 SPACE  &lt 3 TAB  &to 3  &to 5                                                   &trans
             >;
         };
 
@@ -214,10 +214,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp GRAVE     &pipe_bsls   &leftp_less  &rightp_great    &ctrlw_ctrlq
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &minusExcl    &plus_at     &lbrak_hash  &rbrak_dollar    &quote_pct
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &under_caret  &questionex  &lbrace_ast  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES
-&trans   &trans   &trans   &to 0    &trans   &trans  &trans  &kp LEFT_GUI                                             &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                            &kp GRAVE     &pipe_bsls   &leftp_less  &rightp_great    &ctrlw_ctrlq
+&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                            &minusExcl    &plus_at     &lbrak_hash  &rbrak_dollar    &quote_pct
+&trans  &trans  &trans  &trans  &trans                            &under_caret  &questionex  &lbrace_ast  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES
+&trans  &trans  &trans  &to 0   &trans  &trans  &kp LS(LEFT_GUI)  &kp LEFT_GUI                                             &trans
             >;
         };
 
@@ -234,10 +234,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp UP_ARROW    &trans                 &kp ESC
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                               &kp PAGE_UP        &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp RIGHT_SHIFT
-&trans  &trans  &trans  &trans  &trans                               &kp PAGE_DOWN      &kp LG(LEFT_BRACKET)  &trans          &kp LG(RIGHT_BRACKET)  &to 0
-&trans  &trans  &trans  &to 0   &kp LEFT_GUI  &trans  &kp BACKSPACE  &kp ENTER                                                                       &trans
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp UP_ARROW    &trans                 &kp ESC
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                              &kp PAGE_UP        &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp RIGHT_SHIFT
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                              &kp PAGE_DOWN      &kp LG(LEFT_BRACKET)  &trans          &kp LG(RIGHT_BRACKET)  &to 0
+&trans   &trans   &trans   &to 0    &kp LEFT_GUI  &trans  &kp BACKSPACE  &kp ENTER                                                                       &trans
             >;
         };
 
