@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -151,8 +152,19 @@
         Hiragana: Hiragana {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(SPACE)>;
+            bindings = <&macro_release>, <&macro_press>;
+
             label = "HIRAGANA";
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        capture_area {
+            bindings = <&kp LG(LC(Q))>;
+            key-positions = <24 25>;
+            layers = <0>;
         };
     };
 
@@ -165,7 +177,7 @@
 &q_tab          &w_grave      &kp E             &kp R         &kp T                                &kp Y                &kp U        &kp I      &kp O              &p_esc
 &mt LEFT_ALT A  &mt LSHIFT S  &lt 5 D           &mt LCTRL F   &kp G                                &kp H                &mt LCTRL J  &lt 5 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
 &kp Z           &kp X         &kp C             &kp V         &kp B                                &kp N                &kp M        &mkp LCLK  &dot_comma         &kp SLASH
-&kp ESCAPE      &kp CAPS      &kp LEFT_CONTROL  &sk LEFT_GUI  &lt 3 SPACE  &kp TAB  &kp BACKSPACE  &mt RIGHT_GUI ENTER                                             &kp GLOBE
+&to 0           &kp CAPS      &kp LEFT_CONTROL  &sk LEFT_GUI  &lt 3 SPACE  &kp TAB  &kp BACKSPACE  &mt RIGHT_GUI ENTER                                             &to 5
             >;
         };
 
@@ -213,10 +225,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp N1         &kp N2  &kp N3  &kp N4      &kp N5                      &trans         &trans             &kp UP_ARROW     &trans           &trans
-&kp N6         &kp N7  &kp N8  &kp N9      &kp N0                      &kp PAGE_UP    &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans
-&kp LC(LG(Q))  &trans  &trans  &bt BT_NXT  &bt BT_CLR                  &kp PAGE_DOWN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &bootloader
-&trans         &trans  &trans  &trans      &trans      &trans  &trans  &trans                                                              &trans
+&kp N1         &kp N2  &kp N3  &kp N4      &kp N5                     &trans          &trans             &kp UP_ARROW     &trans           &trans
+&kp N6         &kp N7  &kp N8  &kp N9      &kp N0                     &kp PAGE_UP     &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans
+&kp LC(LG(Q))  &trans  &trans  &bt BT_NXT  &bt BT_CLR                 &kp PAGE_DOWN   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &bootloader
+&trans         &trans  &trans  &trans      &trans      &to 0  &trans  &kp LEFT_SHIFT                                                       &trans
             >;
         };
 
