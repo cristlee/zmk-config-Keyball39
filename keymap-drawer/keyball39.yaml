@@ -13,12 +13,12 @@ layers:
   - {t: P, s: '$$mdi:keyboard-esc$$'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: D, h: SCROLL}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: SCROLL}
+  - {t: K, h: RIGHT GUI}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
@@ -213,12 +213,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
-  - {t: '8', s: '*', type: held}
+  - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - PgUp
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Gui+Q
