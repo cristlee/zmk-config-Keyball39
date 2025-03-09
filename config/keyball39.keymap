@@ -160,10 +160,15 @@
     combos {
         compatible = "zmk,combos";
 
-        capture_area {
+        lock {
             bindings = <&kp LG(LC(Q))>;
             key-positions = <10 11 12 13 16 17 18 19>;
             layers = <0>;
+        };
+
+        mute {
+            bindings = <&kp K_MUTE>;
+            key-positions = <16 17 18 19>;
         };
     };
 
