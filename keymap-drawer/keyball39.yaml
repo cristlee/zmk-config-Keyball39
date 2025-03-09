@@ -281,6 +281,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [24, 25]
+- p: [10, 11, 12, 13, 16, 17, 18, 19]
   k: Gui+Ctl+Q
   l: [QWRT]

@@ -494,10 +494,16 @@ rect.held, rect.combo.held {
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
-<path d="M378,154 l-107,0" class="combo"/>
-<path d="M378,154 l107,0" class="combo"/>
-<rect rx="6" ry="6" x="364" y="141" width="28" height="26" class="combo"/>
-<text x="378" y="154" class="combo tap">
+<path d="M378,93 l-331,12" class="combo"/>
+<path d="M378,93 l-275,-2" class="combo"/>
+<path d="M378,93 l-219,-8" class="combo"/>
+<path d="M378,93 l-163,-2" class="combo"/>
+<path d="M378,93 l163,-2" class="combo"/>
+<path d="M378,93 l219,-8" class="combo"/>
+<path d="M378,93 l275,-2" class="combo"/>
+<path d="M378,93 l331,12" class="combo"/>
+<rect rx="6" ry="6" x="364" y="80" width="28" height="26" class="combo"/>
+<text x="378" y="93" class="combo tap">
 <tspan x="378" dy="-0.6em">Gui+</tspan><tspan x="378" dy="1.2em">Ctl+Q</tspan>
 </text>
 </g>
