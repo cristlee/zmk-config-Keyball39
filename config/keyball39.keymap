@@ -225,10 +225,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp N1         &kp N2  &kp N3  &kp N4      &kp N5                     &trans          &trans             &kp UP_ARROW     &trans           &trans
-&kp N6         &kp N7  &kp N8  &kp N9      &kp N0                     &kp PAGE_UP     &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans
-&kp LC(LG(Q))  &trans  &trans  &bt BT_NXT  &bt BT_CLR                 &kp PAGE_DOWN   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &bootloader
-&trans         &trans  &trans  &trans      &trans      &to 0  &trans  &kp LEFT_SHIFT                                                       &trans
+&kp N1         &kp N2  &kp N3  &kp N4      &kp N5                    &trans          &trans             &kp UP_ARROW     &trans           &trans
+&kp N6         &kp N7  &kp N8  &kp N9      &kp N0                    &kp PAGE_UP     &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans
+&kp LC(LG(Q))  &trans  &trans  &bt BT_NXT  &bt BT_CLR                &kp PAGE_DOWN   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &bootloader
+&trans         &trans  &trans  &trans      &trans      &to 0  &to 0  &kp LEFT_SHIFT                                                       &trans
             >;
         };
 
