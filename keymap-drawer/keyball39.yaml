@@ -128,8 +128,8 @@ layers:
   - F5
   - {t: '`', s: '~'}
   - '&pipe_bsls'
-  - (
-  - )
+  - '&leftp_less'
+  - '&rightp_great'
   - '&ctrlw_ctrlq'
   - F6
   - F7
