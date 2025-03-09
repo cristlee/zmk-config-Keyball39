@@ -31,7 +31,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '&dot_comma'
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: QWRT, h: toggle}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -39,7 +39,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: RIGHT GUI}
-  - GLOBE
+  - {t: SCROLL, h: toggle}
   NUM:
   - '!'
   - '@'
@@ -236,9 +236,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWRT, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -280,3 +280,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [24, 25]
+  k: Gui+Ctl+Q
+  l: [QWRT]
