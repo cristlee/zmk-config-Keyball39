@@ -152,8 +152,7 @@
         Hiragana: Hiragana {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_release>, <&macro_press>;
-
+            bindings = <>;
             label = "HIRAGANA";
         };
     };
@@ -163,7 +162,7 @@
 
         capture_area {
             bindings = <&kp LG(LC(Q))>;
-            key-positions = <24 25>;
+            key-positions = <10 11 12 13 16 17 18 19>;
             layers = <0>;
         };
     };
