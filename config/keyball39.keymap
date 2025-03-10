@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -137,15 +138,6 @@
             bindings = <&kp LC(W)>, <&kp LC(Q)>;
         };
 
-        p_esc: p_esc {
-            compatible = "zmk,behavior-mod-morph";
-            label = "P_ESC";
-            #binding-cells = <0>;
-            bindings = <&kp P>, <&kp ESC>;
-
-            mods = <(MOD_RGUI)>;
-        };
-
         leftp_less: leftp_less {
             compatible = "zmk,behavior-tap-dance";
             label = "LEFTP_LESS";
@@ -165,6 +157,13 @@
             label = "P_ESCAPE";
             #binding-cells = <0>;
             bindings = <&kp P>, <&kp ESC>;
+        };
+
+        slash_question: slash_question {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SLASH_QUESTION";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH>, <&kp QUESTION>;
         };
     };
 
@@ -191,7 +190,7 @@
             bindings = <
 &q_tab          &w_grave      &kp E             &kp R             &kp T                              &kp Y        &kp U        &kp I            &kp O              &p_escape
 &mt LEFT_ALT A  &mt LSHIFT S  &kp D             &mt LCTRL F       &kp G                              &kp H        &mt LCTRL J  &mt RIGHT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
-&kp Z           &kp X         &kp C             &kp V             &kp B                              &kp N        &kp M        &mkp LCLK        &dot_comma         &kp SLASH
+&kp Z           &kp X         &kp C             &kp V             &kp B                              &kp N        &kp M        &mkp LCLK        &dot_comma         &slash_question
 &to 6           &kp CAPS      &kp LEFT_CONTROL  &mt LEFT_GUI TAB  &lt 5 SPACE  &mo 3  &kp BACKSPACE  &lt 3 ENTER                                                   &to 5
             >;
         };
@@ -220,10 +219,10 @@
         function_layer {
             label = "NS";
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp GRAVE     &pipe_bsls  &leftp_less  &rightp_great    &ctrlw_ctrlq
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                  &minusExcl    &plus_at    &lbrak_hash  &rbrak_dollar    &quote_pct
-&trans  &trans  &trans  &trans  &trans                  &under_caret  &questamp   &lbrace_ast  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5                          &kp GRAVE     &pipe_bsls  &leftp_less  &rightp_great    &ctrlw_ctrlq
+&kp N6  &kp N7  &kp N8  &kp N9  &kp N0                          &minusExcl    &plus_at    &lbrak_hash  &rbrak_dollar    &quote_pct
+&trans  &trans  &trans  &trans  &trans                          &under_caret  &questamp   &lbrace_ast  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES
+&trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans                                                  &trans
             >;
         };
 
