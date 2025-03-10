@@ -96,9 +96,9 @@
             bindings = <&kp QUESTION>, <&kp AMPERSAND>;
         };
 
-        minusExcl: minusExcl {
+        minus_plus: minus_plus {
             compatible = "zmk,behavior-tap-dance";
-            label = "MINUSEXCL";
+            label = "MINUS_PLUS";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp EXCLAMATION>;
         };
@@ -219,10 +219,10 @@
         function_layer {
             label = "NS";
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4        &kp N5                          &kp GRAVE     &pipe_bsls  &leftp_less  &rightp_great    &ctrlw_ctrlq
-&kp N6  &kp N7  &kp N8  &kp N9        &kp N0                          &minusExcl    &plus_at    &lbrak_hash  &rbrak_dollar    &quote_pct
-&trans  &trans  &trans  &trans        &trans                          &under_caret  &questamp   &lbrace_ast  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES
-&trans  &trans  &trans  &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                  &trans
+&kp N1     &kp N2      &kp N3       &kp N4        &kp N5                          &kp NUMBER_6      &kp N7             &kp N8            &kp N9             &kp N0
+&kp GRAVE  &pipe_bsls  &minus_plus  &kp EQUAL     &kp UNDERSCORE                  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &ctrlw_ctrlq
+&none      &none       &none        &none         &none                           &none             &none              &none             &none              &none
+&trans     &trans      &trans       &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                                    &trans
             >;
         };
 
