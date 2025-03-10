@@ -219,10 +219,10 @@
         function_layer {
             label = "NS";
             bindings = <
-&kp N1     &kp N2      &kp N3       &kp N4        &kp N5                          &kp NUMBER_6      &kp N7             &kp N8            &kp N9             &kp N0
-&kp GRAVE  &pipe_bsls  &minus_plus  &kp EQUAL     &kp UNDERSCORE                  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &ctrlw_ctrlq
-&none      &none       &none        &none         &none                           &none             &none              &none             &none              &none
-&trans     &trans      &trans       &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                                    &trans
+&kp N1     &kp N2      &kp N3       &kp N4        &kp N5                                    &kp NUMBER_6      &kp N7             &kp N8            &kp N9             &kp N0
+&kp GRAVE  &pipe_bsls  &minus_plus  &kp EQUAL     &kp UNDERSCORE                            &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &ctrlw_ctrlq
+&none      &none       &none        &none         &none                                     &none             &none              &none             &none              &none
+&trans     &trans      &trans       &sk LEFT_GUI  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &trans  &trans                                                                    &trans
             >;
         };
 
@@ -240,9 +240,9 @@
             label = "SCROLL";
             bindings = <
 &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UP_ARROW    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp PAGE_UP        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp RIGHT_SHIFT
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &kp PAGE_DOWN      &none            &trans          &none                 &trans
-&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                                                                    &to 0
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &kp PAGE_UP        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp PG_DN
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &none              &none            &trans          &none                 &none
+&trans   &trans   &trans   &trans   &trans   &trans  &trans  &sk LGUI                                                                  &to 0
             >;
         };
 
