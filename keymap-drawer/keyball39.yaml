@@ -126,31 +126,31 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '`', s: '~'}
-  - '&pipe_bsls'
-  - '&leftp_less'
-  - '&rightp_great'
-  - '&ctrlw_ctrlq'
-  - {t: '6', s: ^}
+  - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&minusExcl'
-  - '&plus_at'
-  - '&lbrak_hash'
-  - '&rbrak_dollar'
-  - '&quote_pct'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&under_caret'
-  - '&questamp'
-  - '&lbrace_ast'
-  - '}'
+  - {t: '`', s: '~'}
+  - '&pipe_bsls'
+  - '&minus_plus'
+  - {t: '=', s: +}
+  - _
+  - {t: '''', s: '"'}
   - '"'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '&ctrlw_ctrlq'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
