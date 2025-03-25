@@ -23,7 +23,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
-  - C
+  - {t: C, h: SCROLL}
   - V
   - B
   - N
@@ -131,7 +131,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '`', s: '~'}
+  - '&grave_tilde'
   - '&pipe_bsls'
   - '&minus_plus'
   - {t: '=', s: +}
@@ -223,7 +223,7 @@ layers:
   - '&ctrlw_ctrlq'
   - F11
   - F12
-  - F13
+  - {t: F13, type: held}
   - F14
   - F15
   - PgDn
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
