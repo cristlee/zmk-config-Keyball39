@@ -126,21 +126,22 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - '6'
+  - '&pipe_bsls'
+  - '&minus_plus'
+  - '&under_equal'
+  - {t: 'Gui+[', s: 'Gui+{'}
+  - {t: 'Gui+]', s: 'Gui+}'}
+  - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&grave_tilde'
-  - '&pipe_bsls'
-  - '&minus_plus'
-  - {t: '=', s: +}
-  - _
-  - {t: '''', s: '"'}
-  - '"'
+  - '&quotes'
   - '&leftb'
+  - '&lockesc'
   - '&rightb'
   - '&greatless'
+  - '&grave_tilde'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -148,7 +149,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&lockesc'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,22 +201,22 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
-  - F1
-  - F2
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - F3
   - F4
   - F5
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:arrow-up-bold$$
-  - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: 'Gui+}'}
+  - PgUp
+  - PgDn
   - F6
   - F7
   - F8
   - F9
   - F10
-  - PgUp
+  - Ctl+W
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -226,10 +226,10 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - F14
   - F15
-  - PgDn
-  - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-right-bold$$
+  - F1
+  - F2
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
