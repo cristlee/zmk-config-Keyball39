@@ -37,8 +37,8 @@
             #binding-cells = <0>;
             bindings = <&kp Q>, <&kp TAB>;
 
-            mods = <(MOD_LGUI|MOD_LCTL)>;
-            keep-mods = <(MOD_LGUI|MOD_LCTL)>;
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
         };
 
         w_grave: w_grave {
@@ -47,8 +47,8 @@
             #binding-cells = <0>;
             bindings = <&kp W>, <&kp GRAVE>;
 
-            mods = <(MOD_LGUI|MOD_LCTL)>;
-            keep-mods = <(MOD_LGUI|MOD_LCTL)>;
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
         };
 
         dot_comma: dot_comma {
@@ -229,10 +229,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp F3    &kp F4   &kp F5                   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UP_ARROW    &kp PAGE_UP      &kp PAGE_DOWN
-&kp F6              &kp F7         &kp F8    &kp F9   &kp F10                  &kp LC(W)          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(W)
-&kp F11             &kp F12        &kp CAPS  &kp F14  &kp F15                  &none              &kp F1           &kp F2          &none            &none
-&trans              &trans         &trans    &trans   &trans   &trans  &trans  &sk LGUI                                                             &to 0
+&kp LC(TAB)  &kp LC(GRAVE)  &kp F3    &kp F4   &kp F5                   &kp C_VOLUME_DOWN   &kp C_VOLUME_UP  &kp UP_ARROW    &kp PAGE_UP      &kp PAGE_DOWN
+&kp F6       &kp F7         &kp F8    &kp F9   &kp F10                  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(RIGHT)
+&kp F11      &kp F12        &kp CAPS  &kp F14  &kp F15                  &none               &kp F1           &kp F2          &none            &none
+&trans       &trans         &trans    &trans   &trans   &trans  &trans  &sk LGUI                                                              &to 0
             >;
         };
 
