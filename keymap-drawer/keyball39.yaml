@@ -201,8 +201,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
-  - Ctl+$$mdi:keyboard-tab$$
-  - {t: Ctl+`, s: Ctl+~}
+  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - F3
   - F4
   - F5
@@ -238,7 +238,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-control$$
   - {t: QWRT, h: toggle}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
