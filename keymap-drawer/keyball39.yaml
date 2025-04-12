@@ -201,8 +201,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
-  - Gui+$$mdi:arrow-left-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:keyboard-tab$$
+  - {t: Ctl+`, s: Ctl+~}
   - F3
   - F4
   - F5
@@ -216,11 +216,11 @@ layers:
   - F8
   - F9
   - F10
-  - Ctl+W
+  - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ctl+W
+  - Gui+$$mdi:arrow-right-bold$$
   - F11
   - F12
   - $$mdi:apple-keyboard-caps$$
