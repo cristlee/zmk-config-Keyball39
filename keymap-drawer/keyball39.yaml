@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - '&p_escape'
+  - P
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -23,7 +23,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
-  - {t: C, h: SCROLL}
+  - C
   - V
   - B
   - N
@@ -223,7 +223,7 @@ layers:
   - Ctl+W
   - F11
   - F12
-  - {t: '$$mdi:apple-keyboard-caps$$', type: held}
+  - $$mdi:apple-keyboard-caps$$
   - F14
   - F15
   - PgDn
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
