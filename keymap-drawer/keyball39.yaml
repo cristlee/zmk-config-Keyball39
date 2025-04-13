@@ -33,7 +33,7 @@ layers:
   - '&slash_question'
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
-  - '&lm 5 LEFT_GUI'
+  - {t: '$$mdi:apple-keyboard-command$$', h: '&lm 5'}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - Sft+$$mdi:apple-keyboard-command$$
