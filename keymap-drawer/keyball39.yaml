@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
   - {t: Q, s: '$$mdi:keyboard-tab$$'}
-  - {t: W, s: '`'}
+  - {t: W, s: '$$mdi:keyboard-tab-reverse$$'}
   - E
   - R
   - T
@@ -33,9 +33,9 @@ layers:
   - '&slash_question'
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:keyboard-tab$$', h: '&lm 5'}
-  - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
+  - Sft+$$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-tab$$', h: '&lm'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - Sft+$$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: NS}
@@ -205,7 +205,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - Sft+F4
+  - F4
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-high$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-low$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
