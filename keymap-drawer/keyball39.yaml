@@ -23,7 +23,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
-  - C
+  - {t: C, h: SCROLL}
   - V
   - B
   - N
@@ -220,10 +220,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-right-bold$$'}
-  - {t: QWRT, h: toggle}
+  - Q
+  - {t: '$$mdi:minus-circle-outline$$', s: '`'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:apple-keyboard-caps$$', type: held}
   - F14
   - F15
   - N
