@@ -202,7 +202,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
   - $$mdi:keyboard-tab$$
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-tab-reverse$$
   - F3
   - F4
   - F5
