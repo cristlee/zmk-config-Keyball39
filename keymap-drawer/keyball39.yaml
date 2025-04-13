@@ -203,34 +203,34 @@ layers:
   SCROLL:
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab-reverse$$
-  - F3
-  - F4
-  - F5
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:arrow-up-bold$$
-  - PgUp
-  - PgDn
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
-  - F11
-  - F12
-  - $$mdi:apple-keyboard-caps$$
+  - Sft+F4
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-high$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-low$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: PgUp}
+  - {t: '$$mdi:minus-circle-outline$$', s: PgDn}
+  - A
+  - S
+  - C
+  - V
+  - Z
+  - Sft+Z
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-left-bold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-right-bold$$'}
+  - {t: QWRT, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:apple-keyboard-caps$$'}
   - F14
   - F15
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F3
+  - F5
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -238,7 +238,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWRT, h: toggle}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
