@@ -205,7 +205,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - F4
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-high$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-low$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
@@ -215,8 +215,8 @@ layers:
   - S
   - C
   - V
-  - Z
   - Sft+Z
+  - F4
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-right-bold$$'}
@@ -226,11 +226,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:apple-keyboard-caps$$'}
   - F14
   - F15
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F1
+  - N
+  - F7
   - F2
   - F3
-  - F5
+  - F8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
