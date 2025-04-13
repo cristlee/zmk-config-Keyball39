@@ -242,6 +242,15 @@
 
             mods = <(MOD_LGUI)>;
         };
+
+        esc: esc {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ESC";
+            #binding-cells = <0>;
+            bindings = <&none>, <&kp ESC>;
+
+            mods = <(MOD_LGUI)>;
+        };
     };
 
     combos {
@@ -329,10 +338,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp TAB  &kp LS(TAB)  &kp LEFT_ARROW  &kp RIGHT  &kp F4                   &v_up      &v_down  &up     &page_up  &page_down
-&kp A    &kp S        &kp C           &kp V      &kp Z                    &kp LS(Z)  &left    &down   &right    &to 0
-&none    &none        &caps           &kp F14    &kp F15                  &none      &kp F1   &kp F2  &kp F3    &kp F5
-&trans   &trans       &trans          &trans     &trans   &trans  &trans  &trans                                &to 0
+&kp TAB  &kp LS(TAB)  &kp LEFT_ARROW  &kp RIGHT  &esc                       &v_up   &v_down  &up     &page_up  &page_down
+&kp A    &kp S        &kp C           &kp V      &kp LS(Z)                  &kp F4  &left    &down   &right    &to 0
+&none    &none        &caps           &kp F14    &kp F15                    &kp N   &kp F7   &kp F2  &kp F3    &kp F8
+&trans   &trans       &trans          &trans     &trans     &trans  &trans  &trans                             &to 0
             >;
         };
 
