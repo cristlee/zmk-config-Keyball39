@@ -205,7 +205,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:keyboard-esc$$'}
+  - F4
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-high$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:volume-low$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
@@ -216,7 +216,7 @@ layers:
   - C
   - V
   - Sft+Z
-  - F4
+  - H
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-right-bold$$'}
