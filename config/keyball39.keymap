@@ -347,10 +347,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp TAB  &kp LS(TAB)  &kp LEFT_ARROW  &kp RIGHT  &kp F4                     &v_up   &v_down  &up     &page_up  &page_down
-&kp A    &kp S        &kp C           &kp V      &kp LS(Z)                  &kp H   &left    &down   &right    &kp Q
-&grave   &none        &caps           &kp F14    &kp F15                    &kp N   &kp F7   &kp F2  &kp F3    &kp F8
-&trans   &trans       &trans          &trans     &trans     &trans  &trans  &trans                             &to 0
+&kp TAB  &kp LS(TAB)  &kp F2  &kp F3   &kp F4                     &v_up   &v_down  &up       &page_up   &page_down
+&kp A    &kp S        &kp C   &kp V    &kp LS(Z)                  &kp H   &left    &down     &right     &kp Q
+&grave   &none        &caps   &kp F14  &kp F15                    &kp N   &trans   &kp LEFT  &kp RIGHT  &trans
+&trans   &trans       &trans  &trans   &trans     &trans  &trans  &trans                                &to 0
             >;
         };
 
