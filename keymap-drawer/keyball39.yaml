@@ -206,7 +206,7 @@ layers:
   - F2
   - F3
   - F4
-  - F
+  - T
   - P
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: PgUp}
