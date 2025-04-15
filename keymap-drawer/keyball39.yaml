@@ -221,11 +221,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$', type: held}
   - {t: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', s: Sft+Q}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$', type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+B
   - N
   - {t: '`', s: '~'}
   - $$mdi:arrow-left-bold$$
