@@ -265,7 +265,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5A";
             #binding-cells = <0>;
-            bindings = <&kp A>, <&kp A>;
+            bindings = <&kp LG(A)>, <&kp A>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -275,7 +275,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5S";
             #binding-cells = <0>;
-            bindings = <&kp S>, <&kp S>;
+            bindings = <&kp LG(S)>, <&kp S>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
