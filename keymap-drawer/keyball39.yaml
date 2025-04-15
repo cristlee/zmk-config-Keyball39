@@ -211,8 +211,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: PgUp}
   - {t: '$$mdi:minus-circle-outline$$', s: PgDn}
-  - {t: A, s: A}
-  - {t: S, s: S}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$', s: A}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$', s: S}
   - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
   - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
   - {t: Gui+G, s: Sft+Z}
