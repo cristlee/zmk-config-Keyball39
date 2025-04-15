@@ -297,9 +297,9 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&quotes'
-  - '&leftb'
+  - {t: '&leftb', s: '$$mdi:arrow-left-bold$$'}
   - '&lockesc'
-  - '&rightb'
+  - {t: '&rightb', s: '$$mdi:arrow-right-bold$$'}
   - '&greatless'
   - '&grave_tilde'
   - F14
