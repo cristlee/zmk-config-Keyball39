@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -326,10 +327,10 @@
         function_layer {
             label = "NS";
             bindings = <
-&kp N1        &kp N2  &kp N3  &kp N4        &kp N5                                    &pipe_bsls  &minus_plus  &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp N6        &kp N7  &kp N8  &kp N9        &kp N0                                    &quotes     &leftb       &lockesc      &rightb               &greatless
-&grave_tilde  &none   &none   &none         &none                                     &none       &none        &none         &none                 &none
-&trans        &trans  &trans  &sk LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans  &trans                                                       &trans
+&kp N1        &kp N2   &kp N3   &kp N4             &kp N5                                     &pipe_bsls  &minus_plus  &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&kp N6        &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes     &leftb       &lockesc      &rightb               &greatless
+&grave_tilde  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &none       &none        &none         &none                 &none
+&trans        &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                       &trans
             >;
         };
 
@@ -346,10 +347,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp TAB    &kp LS(TAB)  &kp F2  &kp F3   &kp F4                     &v_up   &v_down  &up       &page_up   &page_down
-&kp A      &kp S        &kp C   &kp V    &kp LS(Z)                  &kp H   &left    &down     &right     &kp Q
-&kp GRAVE  &none        &caps   &kp F14  &kp F15                    &kp N   &trans   &kp LEFT  &kp RIGHT  &trans
-&trans     &trans       &trans  &trans   &trans     &trans  &trans  &trans                                &to 0
+&kp TAB  &kp LS(TAB)  &kp F2  &kp F3   &kp F4                     &kp F   &kp P      &up       &page_up   &page_down
+&kp A    &kp S        &kp C   &kp V    &kp LS(Z)                  &kp H   &left      &down     &right     &kp Q
+&trans   &trans       &caps   &kp F14  &kp F15                    &kp N   &kp GRAVE  &kp LEFT  &kp RIGHT  &caps
+&trans   &trans       &trans  &trans   &trans     &trans  &trans  &trans                                  &to 0
             >;
         };
 
