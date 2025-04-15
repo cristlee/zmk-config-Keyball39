@@ -238,7 +238,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "CAPS";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp CAPS>;
+            bindings = <&kp CAPS>, <&kp CAPS>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -276,6 +276,36 @@
             label = "L5S";
             #binding-cells = <0>;
             bindings = <&kp S>, <&kp S>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5gz: l5gz {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5GZ";
+            #binding-cells = <0>;
+            bindings = <&kp LG(G)>, <&kp LS(Z)>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5dc: l5dc {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5DC";
+            #binding-cells = <0>;
+            bindings = <&kp LG(D)>, <&kp C>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5vf: l5vf {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5VF";
+            #binding-cells = <0>;
+            bindings = <&kp LG(F)>, <&kp V>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -367,10 +397,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp TAB  &kp LS(TAB)  &kp F2  &kp F3   &kp F4                     &kp T  &kp P      &up       &page_up   &page_down
-&kp A    &kp S        &kp C   &kp V    &kp LS(Z)                  &kp H  &left      &down     &right     &kp Q
-&trans   &trans       &caps   &kp F14  &kp F15                    &kp N  &kp GRAVE  &kp LEFT  &kp RIGHT  &caps
-&trans   &trans       &trans  &trans   &trans     &trans  &trans  &mo 3                                  &to 0
+&kp TAB  &kp LS(TAB)  &kp F2  &kp F3   &kp F4                   &kp T  &kp P      &up       &page_up   &page_down
+&kp A    &kp S        &kp C   &kp V    &l5gz                    &kp H  &left      &down     &right     &kp Q
+&trans   &trans       &caps   &kp F14  &kp F15                  &kp N  &kp GRAVE  &kp LEFT  &kp RIGHT  &caps
+&trans   &trans       &trans  &trans   &trans   &trans  &trans  &mo 3                                  &to 0
             >;
         };
 
