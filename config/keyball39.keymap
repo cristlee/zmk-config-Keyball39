@@ -360,6 +360,26 @@
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
+
+        l5x: l5x {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5X";
+            #binding-cells = <0>;
+            bindings = <&kp LG(X)>, <&kp X>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5z: l5z {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5Z";
+            #binding-cells = <0>;
+            bindings = <&kp LG(Z)>, <&kp Z>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
     };
 
     combos {
@@ -449,7 +469,7 @@
             bindings = <
 &l5tabq  &l5stabw  &l5ef2  &l5rf3  &l5tf4                  &kp T  &kp P      &up       &page_up   &page_down
 &l5a     &l5s      &l5dc   &l5vf   &l5gz                   &kp H  &left      &down     &right     &kp Q
-&trans   &trans    &caps   &trans  &trans                  &kp N  &kp GRAVE  &kp LEFT  &kp RIGHT  &caps
+&l5z     &l5x      &caps   &trans  &trans                  &kp N  &kp GRAVE  &kp LEFT  &kp RIGHT  &caps
 &trans   &trans    &trans  &trans  &trans  &trans  &trans  &mo 3                                  &to 0
             >;
         };
