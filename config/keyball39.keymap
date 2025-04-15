@@ -184,7 +184,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "LEFT";
             #binding-cells = <0>;
-            bindings = <&kp LG(LEFT_ARROW)>, <&kp LEFT_ARROW>;
+            bindings = <&kp LCTRL>, <&kp LEFT_ARROW>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -193,7 +193,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHT";
             #binding-cells = <0>;
-            bindings = <&kp LG(RIGHT_ARROW)>, <&kp RIGHT_ARROW>;
+            bindings = <&kp RIGHT_SHIFT>, <&kp RIGHT_ARROW>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -360,6 +360,16 @@
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
+
+        l5qalt: l5qalt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5QALT";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT>, <&kp LS(Q)>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
     };
 
     combos {
@@ -448,7 +458,7 @@
             label = "SCROLL";
             bindings = <
 &l5tabq  &l5stabw  &l5ef2  &l5rf3  &l5tf4                  &kp T  &kp P      &up       &page_up   &page_down
-&l5a     &l5s      &l5dc   &l5vf   &l5gz                   &kp H  &left      &down     &right     &kp Q
+&l5a     &l5s      &l5dc   &l5vf   &l5gz                   &kp H  &left      &down     &right     &l5qalt
 &trans   &trans    &caps   &trans  &trans                  &kp N  &kp GRAVE  &kp LEFT  &kp RIGHT  &caps
 &trans   &trans    &trans  &trans  &trans  &trans  &trans  &mo 7                                  &to 0
             >;
