@@ -33,7 +33,7 @@ layers:
   - '&slash_question'
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
-  - Sft+$$mdi:apple-keyboard-command$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-tab$$', h: '&lm'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - SCROLL
@@ -238,7 +238,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - NS
   - {t: QWRT, h: toggle}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
