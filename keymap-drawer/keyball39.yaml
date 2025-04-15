@@ -18,7 +18,7 @@ layers:
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: RIGHT GUI}
+  - {t: K, h: SCROLL}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
@@ -201,31 +201,31 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab-reverse$$
-  - F2
-  - F3
-  - F4
+  - {t: Gui+Q, s: '$$mdi:keyboard-tab$$'}
+  - {t: Gui+W, s: '$$mdi:keyboard-tab-reverse$$'}
+  - {t: Gui+E, s: F2}
+  - {t: Gui+R, s: F3}
+  - {t: Gui+T, s: F4}
   - T
   - P
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: PgUp}
   - {t: '$$mdi:minus-circle-outline$$', s: PgDn}
-  - A
-  - S
-  - C
-  - V
+  - {t: A, s: A}
+  - {t: S, s: S}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
   - {t: Gui+G, s: Sft+Z}
   - H
   - {t: 'Gui+$$mdi:arrow-left-bold$$', s: '$$mdi:arrow-left-bold$$'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$', type: held}
   - {t: 'Gui+$$mdi:arrow-right-bold$$', s: '$$mdi:arrow-right-bold$$'}
   - Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$', type: held}
-  - F14
-  - F15
+  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - N
   - {t: '`', s: '~'}
   - $$mdi:arrow-left-bold$$
