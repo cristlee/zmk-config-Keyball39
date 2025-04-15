@@ -217,9 +217,9 @@ layers:
   - V
   - Sft+Z
   - H
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-left-bold$$'}
+  - {t: 'Gui+$$mdi:arrow-left-bold$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-right-bold$$'}
+  - {t: 'Gui+$$mdi:arrow-right-bold$$', s: '$$mdi:arrow-right-bold$$'}
   - Q
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
