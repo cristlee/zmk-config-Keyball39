@@ -217,10 +217,10 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
   - {t: Gui+G, s: Sft+Z}
   - H
-  - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
+  - {t: 'Gui+$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$', type: held}
-  - {t: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
-  - {t: '$$mdi:apple-keyboard-option$$', s: Sft+Q}
+  - {t: 'Gui+$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
+  - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$', type: held alternate}
@@ -230,7 +230,7 @@ layers:
   - {t: '`', s: '~'}
   - '&cmdclick'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
