@@ -206,8 +206,8 @@ layers:
   - {t: Gui+E, s: F2}
   - {t: Gui+R, s: F3}
   - {t: Gui+T, s: F4}
-  - T
   - P
+  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
   - {t: '$$mdi:minus-circle-outline$$', s: PgUp}
   - {t: '$$mdi:minus-circle-outline$$', s: PgDn}
@@ -223,8 +223,8 @@ layers:
   - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$', type: held alternate}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: (, type: held alternate}
+  - )
   - Gui+B
   - N
   - {t: '`', s: '~'}
