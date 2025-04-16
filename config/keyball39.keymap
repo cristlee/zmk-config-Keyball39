@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -183,7 +184,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "LEFT";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&kp LEFT_ARROW>;
+            bindings = <&kp LG(LCTRL)>, <&kp LEFT_ARROW>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -192,7 +193,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHT";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_SHIFT>, <&kp RIGHT_ARROW>;
+            bindings = <&kp RG(RIGHT_SHIFT)>, <&kp RIGHT_ARROW>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -360,11 +361,11 @@
             keep-mods = <(MOD_LGUI)>;
         };
 
-        l5qalt: l5qalt {
+        l5capsalt: l5capsalt {
             compatible = "zmk,behavior-mod-morph";
-            label = "L5QALT";
+            label = "L5CAPSALT";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT>, <&kp LS(Q)>;
+            bindings = <&kp RG(RIGHT_ALT)>, <&kp CAPS>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -484,8 +485,8 @@
             label = "SCROLL";
             bindings = <
 &l5tabq    &l5stabw   &l5ef2  &l5rf3     &l5tf4                     &kp T   &kp P      &up        &page_up  &page_down
-&l5a       &l5s       &l5dc   &l5vf      &l5gz                      &kp H   &left      &down      &right    &l5qalt
-&kp LG(Z)  &kp LG(X)  &caps   &kp LG(V)  &kp LG(B)                  &kp N   &kp GRAVE  &cmdclick  &trans    &caps
+&l5a       &l5s       &l5dc   &l5vf      &l5gz                      &kp H   &left      &down      &right    &l5capsalt
+&kp LG(Z)  &kp LG(X)  &caps   &kp LG(V)  &kp LG(B)                  &kp N   &kp GRAVE  &cmdclick  &trans    &trans
 &trans     &trans     &trans  &trans     &trans     &trans  &trans  &trans                                  &to 0
             >;
         };
