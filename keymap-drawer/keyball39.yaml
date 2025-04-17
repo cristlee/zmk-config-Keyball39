@@ -33,7 +33,7 @@ layers:
   - '&slash_question'
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:mouse-left-click-outline$$
+  - '&cmdclick'
   - {t: '$$mdi:keyboard-tab$$', h: '&lm'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - SCROLL
