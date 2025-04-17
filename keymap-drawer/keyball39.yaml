@@ -290,7 +290,7 @@ layers:
   - '&minus_plus'
   - '&under_equal'
   - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: 'Gui+}'}
+  - {t: 'Gui+]', s: Q}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
