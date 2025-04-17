@@ -228,7 +228,7 @@ layers:
   - {t: Gui+B, s: Sft+Q}
   - N
   - {t: '`', s: '~'}
-  - '&cmdclick'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
