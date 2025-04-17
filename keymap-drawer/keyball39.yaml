@@ -225,7 +225,7 @@ layers:
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: (, type: held alternate}
   - )
-  - Gui+B
+  - {t: Gui+B, s: Sft+Q}
   - N
   - {t: '`', s: '~'}
   - '&cmdclick'
