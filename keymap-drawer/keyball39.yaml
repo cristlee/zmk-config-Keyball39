@@ -217,10 +217,10 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
   - {t: Gui+G, s: Sft+Z}
   - H
-  - {t: 'Gui+$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-down-bold$$', type: held}
-  - {t: 'Gui+$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
-  - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: (, s: '$$mdi:arrow-left-bold$$'}
+  - {t: ',', s: '$$mdi:arrow-down-bold$$', type: held}
+  - {t: ), s: '$$mdi:arrow-right-bold$$'}
+  - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: (, type: held alternate}
