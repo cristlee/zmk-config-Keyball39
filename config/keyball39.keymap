@@ -184,7 +184,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "LEFT";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp LEFT_ARROW>;
+            bindings = <&mt RIGHT_CONTROL LEFT_PARENTHESIS>, <&kp LEFT_ARROW>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -193,7 +193,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHT";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_PARENTHESIS>, <&kp RIGHT_ARROW>;
+            bindings = <&mt RIGHT_SHIFT RIGHT_PARENTHESIS>, <&kp RIGHT_ARROW>;
 
             mods = <(MOD_LGUI)>;
         };
