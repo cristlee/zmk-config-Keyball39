@@ -216,7 +216,7 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
   - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
   - {t: Gui+G, s: Sft+Z}
-  - {t: Gui+", s: Gui+Q}
+  - {t: Gui+", s: Q}
   - {t: (, h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: ',', s: '$$mdi:arrow-down-bold$$', type: held}
   - {t: ), h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
