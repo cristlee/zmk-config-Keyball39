@@ -206,17 +206,17 @@ layers:
   - {t: Gui+E, s: F2}
   - {t: Gui+R, s: F3}
   - {t: Gui+T, s: F4}
-  - P
-  - {t: '$$mdi:apple-keyboard-caps$$', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '`', s: '~'}
+  - W
   - {t: '$$mdi:minus-circle-outline$$', s: '$$mdi:arrow-up-bold$$'}
-  - {t: '{', s: PgUp}
-  - {t: '}', s: PgDn}
+  - {t: '$$mdi:minus-circle-outline$$', s: 'Gui+['}
+  - {t: '$$mdi:keyboard-esc$$', s: 'Gui+]'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$', s: A}
   - {t: S, h: '$$mdi:apple-keyboard-command$$', s: S}
   - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
   - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
   - {t: Gui+G, s: Sft+Z}
-  - H
+  - {t: Gui+", s: Gui+Q}
   - {t: (, h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: ',', s: '$$mdi:arrow-down-bold$$', type: held}
   - {t: ), h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
@@ -308,8 +308,8 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ',', s: <}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
