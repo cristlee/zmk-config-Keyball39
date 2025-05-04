@@ -423,14 +423,14 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5PRE";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp LG(LEFT_BRACKET)>;
+            bindings = <&kp AMPERSAND>, <&kp LG(LEFT_BRACKET)>;
 
             mods = <(MOD_LGUI)>;
         };
 
-        l5quotoq: l5quotoq {
+        l5quotogr: l5quotogr {
             compatible = "zmk,behavior-mod-morph";
-            label = "L5QUOTOQ";
+            label = "L5QUOTOGR";
             #binding-cells = <0>;
             bindings = <&kp DOUBLE_QUOTES>, <&kp GRAVE>;
 
@@ -445,6 +445,26 @@
             bindings = <&kp ESCAPE>, <&kp LG(RIGHT_BRACKET)>;
 
             mods = <(MOD_LGUI)>;
+        };
+
+        l5qexc: l5qexc {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5QEXC";
+            #binding-cells = <0>;
+            bindings = <&kp EXCLAMATION>, <&kp Q>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5wdol: l5wdol {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5WDOL";
+            #binding-cells = <0>;
+            bindings = <&kp EXCLAMATION>, <&kp W>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
         };
     };
 
@@ -547,10 +567,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&l5tabq    &l5stabw   &l5ef2                &l5rf3                 &l5tf4                  &kp GRAVE  &kp W       &up        &l5pre  &l5next
-&l5a       &l5s       &l5dc                 &l5vf                  &l5gz                   &l5quotoq  &left       &down      &right  &l5colalt
-&kp LG(Z)  &kp LG(X)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &l5bq                   &page_up   &page_down  &l5esccap  &trans  &trans
-&trans     &trans     &trans                &trans                 &trans  &trans  &trans  &trans                                    &to 0
+&l5tabq    &l5stabw   &l5ef2                &l5rf3                 &l5tf4                  &l5qexc     &l5wdol     &up        &l5pre  &l5next
+&l5a       &l5s       &l5dc                 &l5vf                  &l5gz                   &l5quotogr  &left       &down      &right  &l5colalt
+&kp LG(Z)  &kp LG(X)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &l5bq                   &page_up    &page_down  &l5esccap  &trans  &trans
+&trans     &trans     &trans                &trans                 &trans  &trans  &trans  &trans                                     &to 0
             >;
         };
 
