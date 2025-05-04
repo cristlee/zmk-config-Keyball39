@@ -220,7 +220,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "PAGE_UP";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp PAGE_UP>;
+            bindings = <&kp LEFT_BRACE>, <&kp PAGE_UP>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -229,7 +229,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "PAGE_DOWN";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp PAGE_DOWN>;
+            bindings = <&kp RIGHT_BRACE>, <&kp PAGE_DOWN>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -409,6 +409,15 @@
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
+
+        l5esccap: l5esccap {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5ESCCAP";
+            #binding-cells = <0>;
+            bindings = <&kp LG(CAPS)>, <&kp LS(ESCAPE)>;
+
+            mods = <(MOD_LGUI)>;
+        };
     };
 
     combos {
@@ -510,10 +519,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&l5tabq    &l5stabw   &l5ef2                &l5rf3                 &l5tf4                  &kp P   &caps      &up     &page_up  &page_down
-&l5a       &l5s       &l5dc                 &l5vf                  &l5gz                   &kp H   &left      &down   &right    &l5capsalt
-&kp LG(Z)  &kp LG(X)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &l5bq                   &kp N   &kp GRAVE  &trans  &trans    &trans
-&trans     &trans     &trans                &trans                 &trans  &trans  &trans  &trans                               &to 0
+&l5tabq    &l5stabw   &l5ef2                &l5rf3                 &l5tf4                  &kp P     &caps       &up        &page_up  &page_down
+&l5a       &l5s       &l5dc                 &l5vf                  &l5gz                   &kp H     &left       &down      &right    &l5capsalt
+&kp LG(Z)  &kp LG(X)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &l5bq                   &page_up  &page_down  &l5esccap  &trans    &trans
+&trans     &trans     &trans                &trans                 &trans  &trans  &trans  &trans                                     &to 0
             >;
         };
 
