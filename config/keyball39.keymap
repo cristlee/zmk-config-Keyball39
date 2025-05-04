@@ -361,9 +361,9 @@
             keep-mods = <(MOD_LGUI)>;
         };
 
-        l5capsalt: l5capsalt {
+        l5colalt: l5colalt {
             compatible = "zmk,behavior-mod-morph";
-            label = "L5CAPSALT";
+            label = "L5COLALT";
             #binding-cells = <0>;
             bindings = <&kp RG(RIGHT_ALT)>, <&kp COLON>;
 
@@ -415,6 +415,33 @@
             label = "L5ESCCAP";
             #binding-cells = <0>;
             bindings = <&kp LG(CAPS)>, <&kp LS(ESCAPE)>;
+
+            mods = <(MOD_LGUI)>;
+        };
+
+        l5pre: l5pre {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5PRE";
+            #binding-cells = <0>;
+            bindings = <&none>, <&kp LG(LEFT_BRACKET)>;
+
+            mods = <(MOD_LGUI)>;
+        };
+
+        l5quotoq: l5quotoq {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5QUOTOQ";
+            #binding-cells = <0>;
+            bindings = <&kp LG(DOUBLE_QUOTES)>, <&kp LG(Q)>;
+
+            mods = <(MOD_LGUI)>;
+        };
+
+        l5next: l5next {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5NEXT";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE>, <&kp LG(RIGHT_BRACKET)>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -519,10 +546,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&l5tabq    &l5stabw   &l5ef2                &l5rf3                 &l5tf4                  &kp P     &caps       &up        &page_up  &page_down
-&l5a       &l5s       &l5dc                 &l5vf                  &l5gz                   &kp H     &left       &down      &right    &l5capsalt
-&kp LG(Z)  &kp LG(X)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &l5bq                   &page_up  &page_down  &l5esccap  &trans    &trans
-&trans     &trans     &trans                &trans                 &trans  &trans  &trans  &trans                                     &to 0
+&l5tabq    &l5stabw   &l5ef2                &l5rf3                 &l5tf4                  &kp GRAVE  &kp W       &up        &l5pre  &l5next
+&l5a       &l5s       &l5dc                 &l5vf                  &l5gz                   &l5quotoq  &left       &down      &right  &l5colalt
+&kp LG(Z)  &kp LG(X)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &l5bq                   &page_up   &page_down  &l5esccap  &trans  &trans
+&trans     &trans     &trans                &trans                 &trans  &trans  &trans  &trans                                    &to 0
             >;
         };
 
@@ -541,7 +568,7 @@
             bindings = <
 &kp N1        &kp N2   &kp N3   &kp N4             &kp N5                                     &pipe_bsls  &minus_plus  &under_equal  &kp LG(LEFT_BRACKET)  &l7fwdq
 &kp N6        &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes     &lll         &lockesc      &rrr                  &greatless
-&grave_tilde  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &none       &none        &none         &none                 &none
+&grave_tilde  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &none       &none        &kp COMMA     &trans                &none
 &trans        &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                       &trans
             >;
         };
