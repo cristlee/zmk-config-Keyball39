@@ -432,7 +432,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5QUOTOQ";
             #binding-cells = <0>;
-            bindings = <&kp LG(DOUBLE_QUOTES)>, <&kp Q>;
+            bindings = <&kp DOUBLE_QUOTES>, <&kp GRAVE>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
