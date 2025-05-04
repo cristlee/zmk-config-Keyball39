@@ -286,11 +286,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
+  - '&grave_tilde'
   - '&pipe_bsls'
-  - '&minus_plus'
   - '&under_equal'
   - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: Q}
+  - {t: 'Gui+]', s: 'Gui+}'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -298,7 +298,7 @@ layers:
   - {t: '0', s: )}
   - '&quotes'
   - {t: '&leftb', s: '$$mdi:arrow-left-bold$$'}
-  - '&lockesc'
+  - '&minus_plus'
   - {t: '&rightb', s: '$$mdi:arrow-right-bold$$'}
   - '&greatless'
   - '&grave_tilde'
