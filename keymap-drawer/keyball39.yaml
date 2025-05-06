@@ -211,10 +211,10 @@ layers:
   - {t: Gui+I, s: '$$mdi:arrow-up-bold$$'}
   - {t: Gui+O, s: 'Gui+['}
   - {t: Gui+P, s: 'Gui+]'}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$', s: A}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$', s: S}
+  - {t: A, h: 'Gui+$$mdi:apple-keyboard-option$$', s: A}
+  - {t: S, h: 'Gui+$$mdi:apple-keyboard-shift$$', s: S}
   - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C, type: held}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$', s: V}
+  - {t: F, h: 'Gui+$$mdi:apple-keyboard-control$$', s: V}
   - {t: Gui+G, s: Sft+Z}
   - {t: Gui+H, s: '`'}
   - {t: Gui+J, h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
@@ -226,8 +226,8 @@ layers:
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Gui+B, s: Gui+Ctl+Q}
-  - {t: '{', s: PgUp}
-  - {t: '}', s: PgDn}
+  - {t: Gui+N, s: PgUp}
+  - {t: Gui+M, s: PgDn}
   - {t: '$$mdi:apple-keyboard-caps$$', s: 'Sft+$$mdi:keyboard-esc$$'}
   - {t: 'Gui+,', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
