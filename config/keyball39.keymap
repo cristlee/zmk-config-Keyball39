@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -210,7 +211,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "PAGE_UP";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE>, <&kp PAGE_UP>;
+            bindings = <&kp LG(N)>, <&kp PAGE_UP>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -219,16 +220,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "PAGE_DOWN";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACE>, <&kp PAGE_DOWN>;
-
-            mods = <(MOD_LGUI)>;
-        };
-
-        caps: caps {
-            compatible = "zmk,behavior-mod-morph";
-            label = "CAPS";
-            #binding-cells = <0>;
-            bindings = <&kp CAPS>, <&kp CAPS>;
+            bindings = <&kp LG(M)>, <&kp PAGE_DOWN>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -237,7 +229,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5A";
             #binding-cells = <0>;
-            bindings = <&mt LEFT_ALT LG(A)>, <&kp A>;
+            bindings = <&mt LG(LEFT_ALT) LG(A)>, <&kp A>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -247,7 +239,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5S";
             #binding-cells = <0>;
-            bindings = <&mt LEFT_SHIFT LG(S)>, <&kp S>;
+            bindings = <&mt LG(LEFT_SHIFT) LG(S)>, <&kp S>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -277,7 +269,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5VF";
             #binding-cells = <0>;
-            bindings = <&mt LEFT_CONTROL LG(F)>, <&kp V>;
+            bindings = <&mt LG(LEFT_CONTROL) LG(F)>, <&kp V>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
