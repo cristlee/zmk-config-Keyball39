@@ -13,7 +13,7 @@ layers:
   - P
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: SCROLL}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
@@ -23,7 +23,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
-  - {t: C, h: SCROLL}
+  - {t: C, h: SYM}
   - V
   - B
   - N
@@ -36,7 +36,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-tab$$', h: '&lm'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - '&cmdclick'
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
   - {t: SCROLL, h: toggle}
@@ -86,31 +86,31 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
+  - '~'
   - '&'
   - '*'
-  - (
-  - )
+  - '@'
+  - '%'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
+  - '"'
+  - (
+  - $
+  - )
+  - '#'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - _
-  - +
+  - '!'
+  - {t: '[', s: '{'}
   - {t: ',', s: <}
-  - .
-  - {t: \, s: '|'}
+  - {t: ']', s: '}'}
+  - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -213,17 +213,17 @@ layers:
   - {t: Gui+P, s: 'Gui+]'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$', s: A}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$', s: S}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C, type: held}
   - {t: F, h: '$$mdi:apple-keyboard-control$$', s: V}
   - {t: Gui+G, s: Sft+Z}
   - {t: Gui+H, s: '`'}
   - {t: Gui+J, h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
-  - {t: ',', s: '$$mdi:arrow-down-bold$$', type: held}
+  - {t: ',', s: '$$mdi:arrow-down-bold$$', type: held alternate}
   - {t: Gui+L, h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
   - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: Q}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$', type: held alternate}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Gui+B, s: Gui+Ctl+Q}
   - {t: '{', s: PgUp}
