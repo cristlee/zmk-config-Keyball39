@@ -206,15 +206,15 @@ layers:
   - {t: Gui+E, s: F2}
   - {t: Gui+R, s: F3}
   - {t: Gui+T, s: F4}
-  - {t: '!', s: Q}
-  - {t: $, s: W}
+  - {t: '!', s: 'Gui+$$mdi:arrow-left-bold$$'}
+  - {t: Gui+U, s: 'Gui+$$mdi:arrow-right-bold$$'}
   - {t: Gui+I, s: '$$mdi:arrow-up-bold$$'}
-  - {t: '&', s: 'Gui+['}
-  - {t: '%', s: 'Gui+]'}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$', s: A}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$', s: S}
+  - {t: Gui+O, s: 'Gui+['}
+  - {t: Gui+P, s: 'Gui+]'}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$', s: A}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$', s: S}
   - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$', s: V}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$', s: V}
   - {t: Gui+G, s: Sft+Z}
   - {t: Gui+H, s: '`'}
   - {t: Gui+J, h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
@@ -229,7 +229,7 @@ layers:
   - {t: '{', s: PgUp}
   - {t: '}', s: PgDn}
   - {t: '$$mdi:apple-keyboard-caps$$', s: 'Sft+$$mdi:keyboard-esc$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+,', s: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
