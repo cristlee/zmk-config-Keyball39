@@ -483,9 +483,9 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AMPERSAND         &kp ASTERISK  &kp DOLLAR             &kp PERCENT
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AMPERSAND         &kp HASH      &kp DOLLAR             &kp PERCENT
 &kp LEFT_SHIFT   &trans       &trans    &trans      &kp GRAVE                    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp HASH
-&kp LSHFT        &trans       &trans    &trans      &kp CAPS                     &kp TILDE          &kp LEFT_BRACKET      &kp COMMA     &kp RIGHT_BRACKET      &kp CARET
+&kp LSHFT        &trans       &trans    &trans      &kp CAPS                     &kp TILDE          &kp LEFT_BRACKET      &kp COMMA     &kp RIGHT_BRACKET      &kp QUESTION
 &trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                        &trans
             >;
         };
@@ -533,10 +533,10 @@
         layer_7 {
             label = "SN";
             bindings = <
-&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &grave_tilde     &pipe_bsls   &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes          &lll         &minus_plus   &rrr                  &greatless
-&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp EXCLAMATION  &kp AT_SIGN  &kp COMMA     &trans                &none
-&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                            &trans
+&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &grave_tilde  &pipe_bsls     &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes       &lll           &minus_plus   &rrr                  &kp COLON
+&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE     &kp LESS_THAN  &kp COMMA     &kp GREATER_THAN      &kp QUESTION
+&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                           &trans
             >;
         };
     };
