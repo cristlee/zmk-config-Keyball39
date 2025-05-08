@@ -229,7 +229,7 @@ layers:
   - {t: Gui+N, s: PgUp}
   - {t: Gui+M, s: PgDn}
   - {t: '&cmdclick', s: '$$mdi:keyboard-esc$$'}
-  - {t: 'Gui+,', s: '$$mdi:apple-keyboard-caps$$'}
+  - {t: 'Gui+,', s: /}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
