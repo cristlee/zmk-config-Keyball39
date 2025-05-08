@@ -88,7 +88,7 @@ layers:
   - '%'
   - '!'
   - '&'
-  - '*'
+  - '#'
   - $
   - '%'
   - $$mdi:apple-keyboard-shift$$
@@ -110,7 +110,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ',', s: <}
   - {t: ']', s: '}'}
-  - ^
+  - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -300,17 +300,17 @@ layers:
   - {t: '{', s: '$$mdi:arrow-left-bold$$'}
   - '&minus_plus'
   - {t: '}', s: '$$mdi:arrow-right-bold$$'}
-  - '&greatless'
+  - ':'
   - $$mdi:apple-keyboard-caps$$
   - F14
   - F15
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - '!'
-  - '@'
+  - {t: '`', s: '~'}
+  - <
   - {t: ',', s: <}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '>'
+  - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
