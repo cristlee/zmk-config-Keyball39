@@ -86,10 +86,10 @@ layers:
   - '#'
   - $
   - '%'
-  - '~'
+  - '!'
   - '&'
   - '*'
-  - '@'
+  - $
   - '%'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -98,7 +98,7 @@ layers:
   - {t: '`', s: '~'}
   - '"'
   - (
-  - $
+  - '*'
   - )
   - '#'
   - $$mdi:apple-keyboard-shift$$
@@ -106,7 +106,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - '!'
+  - '~'
   - {t: '[', s: '{'}
   - {t: ',', s: <}
   - {t: ']', s: '}'}
@@ -137,9 +137,9 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&quotes'
-  - {t: '&leftb', s: '$$mdi:arrow-left-bold$$'}
+  - {t: '{', s: '$$mdi:arrow-left-bold$$'}
   - '&lockesc'
-  - {t: '&rightb', s: '$$mdi:arrow-right-bold$$'}
+  - {t: '}', s: '$$mdi:arrow-right-bold$$'}
   - '&greatless'
   - '&grave_tilde'
   - F14
@@ -297,11 +297,11 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&quotes'
-  - {t: '&leftb', s: '$$mdi:arrow-left-bold$$'}
+  - {t: '{', s: '$$mdi:arrow-left-bold$$'}
   - '&minus_plus'
-  - {t: '&rightb', s: '$$mdi:arrow-right-bold$$'}
+  - {t: '}', s: '$$mdi:arrow-right-bold$$'}
   - '&greatless'
-  - '&grave_tilde'
+  - $$mdi:apple-keyboard-caps$$
   - F14
   - F15
   - $$mdi:volume-low$$
