@@ -39,7 +39,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
-  - {t: SCROLL, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUM:
   - '!'
   - '@'
@@ -87,7 +87,7 @@ layers:
   - $
   - '%'
   - '!'
-  - '&'
+  - '@'
   - '#'
   - $
   - '%'
@@ -98,19 +98,19 @@ layers:
   - {t: '`', s: '~'}
   - '"'
   - (
-  - '*'
+  - {t: '=', s: +}
   - )
-  - '#'
+  - ^
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - '~'
+  - '&'
   - {t: '[', s: '{'}
-  - {t: ',', s: <}
+  - +
   - {t: ']', s: '}'}
-  - '?'
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -220,7 +220,7 @@ layers:
   - {t: Gui+J, h: 'Gui+$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-left-bold$$'}
   - {t: Gui+K, s: '$$mdi:arrow-down-bold$$', type: held alternate}
   - {t: Gui+L, h: 'Gui+$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
-  - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: Q}
+  - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: '`'}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
@@ -239,7 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWRT, h: toggle}
+  - Q
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -286,7 +286,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - '&grave_tilde'
+  - '~'
   - '&pipe_bsls'
   - '&under_equal'
   - {t: 'Gui+[', s: 'Gui+{'}
