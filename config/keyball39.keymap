@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -304,10 +305,9 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5ALTQ";
             #binding-cells = <0>;
-            bindings = <&kp RG(RIGHT_ALT)>, <&kp Q>;
+            bindings = <&kp RG(RIGHT_ALT)>, <&kp GRAVE>;
 
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
         };
 
         lll: lll {
@@ -465,7 +465,7 @@
 &q_tab          &w_grave      &kp E    &kp R        &kp T                                           &kp Y        &kp U                &kp I      &kp O              &kp P
 &mt LEFT_ALT A  &mt LSHIFT S  &lt 5 D  &mt LCTRL F  &kp G                                           &kp H        &mt RIGHT_CONTROL J  &lt 5 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
 &kp Z           &kp X         &lt 2 C  &kp V        &kp B                                           &kp N        &kp M                &mkp LCLK  &dot_comma         &slash_question
-&mo 6           &kp CAPS      &mo 5    &test 0 TAB  &mt LEFT_CONTROL SPACE  &kp ESC  &kp BACKSPACE  &lt 7 ENTER                                                     &to 5
+&mo 6           &kp CAPS      &mo 5    &test 0 TAB  &mt LEFT_CONTROL SPACE  &kp ESC  &kp BACKSPACE  &lt 7 ENTER                                                     &none
             >;
         };
 
@@ -483,10 +483,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AMPERSAND         &kp HASH      &kp DOLLAR             &kp PERCENT
-&kp LEFT_SHIFT   &trans       &trans    &trans      &kp GRAVE                    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp HASH
-&kp LSHFT        &trans       &trans    &trans      &kp CAPS                     &kp TILDE          &kp LEFT_BRACKET      &kp COMMA     &kp RIGHT_BRACKET      &kp QUESTION
-&trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                        &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AT                &kp HASH   &kp DOLLAR             &kp PERCENT
+&kp LEFT_SHIFT   &trans       &trans    &trans      &kp GRAVE                    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp CARET
+&kp LSHFT        &trans       &trans    &trans      &kp CAPS                     &kp AMPERSAND      &kp LEFT_BRACKET      &kp PLUS   &kp RIGHT_BRACKET      &kp STAR
+&trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                     &trans
             >;
         };
 
@@ -516,7 +516,7 @@
 &l5tabq    &l5stabw   &l5ef2     &l5rf3     &l5tf4                  &l5y       &l5u        &up        &l5pre   &l5next
 &l5a       &l5s       &l5dc      &l5vf      &l5gz                   &l5hgrave  &left       &down      &right   &l5altq
 &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &l5bq                   &page_up   &page_down  &l5clkesc  &l5cmsl  &trans
-&trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                                     &to 0
+&trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                                     &kp Q
             >;
         };
 
@@ -533,10 +533,10 @@
         layer_7 {
             label = "SN";
             bindings = <
-&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &grave_tilde  &pipe_bsls     &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes       &lll           &minus_plus   &rrr                  &kp COLON
-&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE     &kp LESS_THAN  &kp COMMA     &kp GREATER_THAN      &kp QUESTION
-&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                           &trans
+&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE  &pipe_bsls     &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes    &lll           &minus_plus   &rrr                  &kp COLON
+&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE  &kp LESS_THAN  &kp COMMA     &kp GREATER_THAN      &kp QUESTION
+&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                        &trans
             >;
         };
     };
