@@ -465,7 +465,7 @@
 &q_tab          &w_grave      &kp E    &kp R        &kp T                                           &kp Y        &kp U                &kp I      &kp O              &kp P
 &mt LEFT_ALT A  &mt LSHIFT S  &lt 5 D  &mt LCTRL F  &kp G                                           &kp H        &mt RIGHT_CONTROL J  &lt 5 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
 &kp Z           &kp X         &lt 2 C  &kp V        &kp B                                           &kp N        &kp M                &mkp LCLK  &dot_comma         &slash_question
-&mo 6           &kp CAPS      &mo 5    &test 0 TAB  &mt LEFT_CONTROL SPACE  &kp ESC  &kp BACKSPACE  &lt 7 ENTER                                                     &none
+&mo 6           &kp CAPS      &mo 5    &test 0 TAB  &mt LEFT_CONTROL SPACE  &kp ESC  &kp BACKSPACE  &lt 7 ENTER                                                     &kp CAPS
             >;
         };
 
@@ -515,7 +515,7 @@
             bindings = <
 &l5tabq    &l5stabw   &l5ef2     &l5rf3     &l5tf4                  &l5y       &l5u        &up        &l5pre   &l5next
 &l5a       &l5s       &l5dc      &l5vf      &l5gz                   &l5hgrave  &left       &down      &right   &l5altq
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &l5bq                   &page_up   &page_down  &l5clkesc  &l5cmsl  &trans
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &l5bq                   &page_up   &page_down  &l5clkesc  &l5cmsl  &none
 &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                                     &kp Q
             >;
         };
@@ -525,8 +525,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &bt BT_NXT
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &bootloader
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &bootloader
             >;
         };
 
