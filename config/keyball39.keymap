@@ -348,30 +348,30 @@
             mods = <(MOD_LGUI)>;
         };
 
-        l5pre: l5pre {
+        l5ow: l5ow {
             compatible = "zmk,behavior-mod-morph";
-            label = "L5PRE";
+            label = "L5OW";
             #binding-cells = <0>;
-            bindings = <&kp LG(O)>, <&kp LG(LEFT_BRACKET)>;
+            bindings = <&kp LG(O)>, <&kp LG(W)>;
 
             mods = <(MOD_LGUI)>;
         };
 
-        l5hgrave: l5hgrave {
+        l5h: l5h {
             compatible = "zmk,behavior-mod-morph";
-            label = "L5HGRAVE";
+            label = "L5H";
             #binding-cells = <0>;
-            bindings = <&kp LG(H)>, <&kp GRAVE>;
+            bindings = <&kp LG(H)>, <&kp H>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
 
-        l5next: l5next {
+        l5pq: l5pq {
             compatible = "zmk,behavior-mod-morph";
-            label = "L5NEXT";
+            label = "L5PQ";
             #binding-cells = <0>;
-            bindings = <&kp LG(P)>, <&kp LG(RIGHT_BRACKET)>;
+            bindings = <&kp LG(P)>, <&kp LG(Q)>;
 
             mods = <(MOD_LGUI)>;
         };
@@ -380,18 +380,20 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5Y";
             #binding-cells = <0>;
-            bindings = <&kp LG(Y)>, <&kp LG(LEFT_ARROW)>;
+            bindings = <&kp LG(Y)>, <&kp GRAVE>;
 
             mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
         };
 
         l5u: l5u {
             compatible = "zmk,behavior-mod-morph";
             label = "L5U";
             #binding-cells = <0>;
-            bindings = <&kp LG(U)>, <&kp LG(RIGHT)>;
+            bindings = <&kp LG(U)>, <&kp TILDE>;
 
             mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
         };
 
         left: left {
@@ -513,10 +515,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&l5tabq    &l5stabw   &l5ef2     &l5rf3     &l5tf4                  &l5y       &l5u        &up        &l5pre   &l5next
-&l5a       &l5s       &l5dc      &l5vf      &l5gz                   &l5hgrave  &left       &down      &right   &l5altq
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &l5bq                   &page_up   &page_down  &l5clkesc  &l5cmsl  &none
-&trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                                     &kp Q
+&l5tabq    &l5stabw   &l5ef2     &l5rf3     &l5tf4                  &l5y      &l5u        &up        &l5ow    &l5pq
+&l5a       &l5s       &l5dc      &l5vf      &l5gz                   &l5h      &left       &down      &right   &l5altq
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &l5bq                   &page_up  &page_down  &l5clkesc  &l5cmsl  &none
+&trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                                    &kp Q
             >;
         };
 
