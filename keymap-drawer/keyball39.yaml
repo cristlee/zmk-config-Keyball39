@@ -29,8 +29,8 @@ layers:
   - N
   - M
   - $$mdi:mouse-left-click-outline$$
-  - '&dot_comma'
-  - '&slash_question'
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
   - NUM
