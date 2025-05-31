@@ -61,55 +61,11 @@
             flavor = "balanced";
         };
 
-        minus_plus: minus_plus {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MINUS_PLUS";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp PLUS>;
-        };
-
-        greatless: greatless {
-            compatible = "zmk,behavior-tap-dance";
-            label = "GREATLESS";
-            #binding-cells = <0>;
-            bindings = <&kp GREATER_THAN>, <&kp LESS_THAN>;
-
-            tapping-term-ms = <240>;
-        };
-
         pipe_bsls: pipe_bsls {
             compatible = "zmk,behavior-tap-dance";
             label = "PIPE_BSLS";
             #binding-cells = <0>;
             bindings = <&kp PIPE>, <&kp BACKSLASH>;
-        };
-
-        lockesc: lockesc {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LOCKESC";
-            #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp LC(LG(Q))>;
-        };
-
-        quotes: quotes {
-            compatible = "zmk,behavior-tap-dance";
-            label = "QUOTES";
-            #binding-cells = <0>;
-            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
-        };
-
-        grave_tilde: grave_tilde {
-            compatible = "zmk,behavior-tap-dance";
-            label = "GRAVE_TILDE";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&kp TILDE>;
-        };
-
-        under_equal: under_equal {
-            compatible = "zmk,behavior-tap-dance";
-            label = "UNDER_EQUAL";
-            #binding-cells = <0>;
-            bindings = <&kp UNDER>, <&kp EQUAL>;
         };
 
         right: right {
@@ -445,10 +401,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AT                &kp HASH   &kp DOLLAR             &kp PERCENT
-&kp LEFT_SHIFT   &trans       &trans    &trans      &kp GRAVE                    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp CARET
-&kp LSHFT        &trans       &trans    &trans      &kp CAPS                     &kp AMPERSAND      &kp LEFT_BRACKET      &kp PLUS   &kp RIGHT_BRACKET      &kp STAR
-&trans           &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                     &trans
+&none           &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AT                &kp HASH   &kp DOLLAR             &kp PERCENT
+&kp LEFT_SHIFT  &trans       &trans    &trans      &kp GRAVE                    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp CARET
+&kp LSHFT       &trans       &trans    &trans      &kp CAPS                     &kp AMPERSAND      &kp LEFT_BRACKET      &kp PLUS   &kp RIGHT_BRACKET      &kp STAR
+&trans          &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                     &trans
             >;
         };
 
