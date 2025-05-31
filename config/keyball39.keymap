@@ -403,7 +403,7 @@
             bindings = <
 &none           &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                  &kp EXCL           &kp AT                &kp HASH   &kp DOLLAR             &kp PERCENT
 &kp LEFT_SHIFT  &trans       &trans    &trans      &kp GRAVE                    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp CARET
-&kp LSHFT       &trans       &trans    &trans      &kp CAPS                     &kp AMPERSAND      &kp LEFT_BRACKET      &kp PLUS   &kp RIGHT_BRACKET      &kp STAR
+&kp LSHFT       &trans       &trans    &trans      &kp CAPS                     &kp AMPERSAND      &kp LEFT_BRACKET      &kp COMMA  &kp RIGHT_BRACKET      &kp STAR
 &trans          &trans       &trans    &trans      &trans       &trans  &trans  &trans                                                                     &trans
             >;
         };
@@ -451,9 +451,9 @@
         layer_7 {
             label = "SN";
             bindings = <
-&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE         &pipe_bsls     &kp UNDER  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &kp SINGLE_QUOTE  &lll           &kp MINUS  &rrr                  &kp COLON
-&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE         &kp LESS_THAN  &kp COMMA  &kp GREATER_THAN      &kp QUESTION
+&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE         &pipe_bsls     &kp PLUS   &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &kp SINGLE_QUOTE  &lll           &kp UNDER  &rrr                  &kp COLON
+&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE         &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN      &kp QUESTION
 &trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                            &trans
             >;
         };
