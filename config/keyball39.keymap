@@ -495,10 +495,10 @@
         layer_7 {
             label = "SN";
             bindings = <
-&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE  &pipe_bsls     &under_equal  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &quotes    &lll           &minus_plus   &rrr                  &kp COLON
-&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE  &kp LESS_THAN  &kp COMMA     &kp GREATER_THAN      &kp QUESTION
-&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                        &trans
+&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE         &pipe_bsls     &kp UNDER  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
+&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &kp SINGLE_QUOTE  &lll           &kp MINUS  &rrr                  &kp COLON
+&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE         &kp LESS_THAN  &kp COMMA  &kp GREATER_THAN      &kp QUESTION
+&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                            &trans
             >;
         };
     };
