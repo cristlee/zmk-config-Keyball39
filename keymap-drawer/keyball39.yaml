@@ -226,8 +226,8 @@ layers:
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: Gui+B, s: Gui+Ctl+Q}
-  - {t: Gui+N, s: PgUp}
-  - {t: Gui+M, s: PgDn}
+  - {t: Gui+N, s: '`'}
+  - {t: Gui+M, s: '~'}
   - {t: '&cmdclick', s: '$$mdi:keyboard-esc$$'}
   - {t: 'Gui+,', s: /}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
