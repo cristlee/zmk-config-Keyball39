@@ -186,7 +186,7 @@ layers:
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: Gui+B, s: Gui+Ctl+Q}
+  - {t: Gui+B, s: Gui+\}
   - {t: Gui+N, s: '`'}
   - {t: Gui+M, s: '~'}
   - {t: '&cmdclick', s: '$$mdi:keyboard-esc$$'}
@@ -248,7 +248,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - '~'
-  - '&pipe_bsls'
+  - '|'
   - +
   - {t: 'Gui+[', s: 'Gui+{'}
   - {t: 'Gui+]', s: 'Gui+}'}
