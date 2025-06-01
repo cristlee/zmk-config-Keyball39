@@ -182,10 +182,10 @@ layers:
   - {t: Gui+K, s: '$$mdi:arrow-down-bold$$', type: held alternate}
   - {t: Gui+L, h: 'Gui+$$mdi:apple-keyboard-shift$$', s: '$$mdi:arrow-right-bold$$'}
   - {t: 'Gui+$$mdi:apple-keyboard-option$$', s: '`'}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$', s: '$$mdi:keyboard-esc$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$', s: Ctl+Gui+Q}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$', s: W}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$', s: Q}
   - {t: Gui+B, s: Gui+\}
   - {t: Gui+N, s: '`'}
   - {t: Gui+M, s: '~'}
