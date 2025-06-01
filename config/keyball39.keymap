@@ -323,6 +323,44 @@
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         };
+
+        l5cw: l5cw {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5CW";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C)>, <&kp W>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5vq: l5vq {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5VQ";
+            #binding-cells = <0>;
+            bindings = <&kp LG(V)>, <&kp Q>;
+
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        };
+
+        l5xq: l5xq {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5XQ";
+            #binding-cells = <0>;
+            bindings = <&kp LG(X)>, <&kp LC(LG(Q))>;
+
+            mods = <(MOD_LGUI)>;
+        };
+
+        l5zesc: l5zesc {
+            compatible = "zmk,behavior-mod-morph";
+            label = "L5ZESC";
+            #binding-cells = <0>;
+            bindings = <&kp LG(Z)>, <&kp ESC>;
+
+            mods = <(MOD_LGUI)>;
+        };
     };
 
     combos {
@@ -424,10 +462,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&l5tabq    &l5stabw   &l5ef2     &l5rf3     &l5tf4                  &l5y    &l5u   &up        &l5ow    &l5pq
-&l5a       &l5s       &l5dc      &l5vf      &l5gz                   &l5h    &left  &down      &right   &l5altq
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &l5bbs                  &l5n    &l5m   &l5clkesc  &l5cmsl  &none
-&trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans                             &none
+&l5tabq  &l5stabw  &l5ef2  &l5rf3  &l5tf4                  &l5y    &l5u   &up        &l5ow    &l5pq
+&l5a     &l5s      &l5dc   &l5vf   &l5gz                   &l5h    &left  &down      &right   &l5altq
+&l5zesc  &l5xq     &l5cw   &l5vq   &l5bbs                  &l5n    &l5m   &l5clkesc  &l5cmsl  &none
+&trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans                             &none
             >;
         };
 
