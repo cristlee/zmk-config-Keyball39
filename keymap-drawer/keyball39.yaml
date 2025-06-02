@@ -186,7 +186,7 @@ layers:
   - {t: X, h: '$$mdi:apple-keyboard-command$$', s: Ctl+Gui+Q}
   - {t: C, h: '$$mdi:apple-keyboard-command$$', s: W}
   - {t: V, h: '$$mdi:apple-keyboard-command$$', s: Q}
-  - {t: Gui+B, s: Gui+\}
+  - {t: Gui+B, s: \}
   - {t: Gui+N, s: '`'}
   - {t: Gui+M, s: '~'}
   - {t: '&cmdclick', s: '$$mdi:keyboard-esc$$'}
