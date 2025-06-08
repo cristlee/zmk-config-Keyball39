@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
-  - {t: Q, s: '$$mdi:keyboard-tab$$'}
-  - {t: W, s: '$$mdi:keyboard-tab-reverse$$'}
+  - Q
+  - W
   - E
   - R
   - T
@@ -81,8 +81,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '@'
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab-reverse$$
   - '#'
   - $
   - '%'
@@ -91,21 +91,21 @@ layers:
   - '#'
   - $
   - '%'
-  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '"'
   - (
   - {t: '=', s: +}
   - )
   - ^
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&'
   - {t: '[', s: '{'}
   - {t: ',', s: <}
