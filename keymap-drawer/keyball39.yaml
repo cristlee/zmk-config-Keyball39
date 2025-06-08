@@ -34,8 +34,8 @@ layers:
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
   - NUM
-  - {t: '$$mdi:keyboard-tab$$', h: '&lm'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '&cmd5'}
+  - {t: '$$mdi:keyboard-space$$', h: '&ctrl2'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
