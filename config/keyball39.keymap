@@ -486,6 +486,15 @@
 
             mods = <(MOD_LCTL)>;
         };
+
+        lay2sq: lay2sq {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LAY2SQ";
+            #binding-cells = <0>;
+            bindings = <&none>, <&kp SINGLE_QUOTE>;
+
+            mods = <(MOD_LCTL)>;
+        };
     };
 
     combos {
@@ -576,10 +585,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp TAB  &kp LS(TAB)  &trans  &trans  &trans                  &lay2exc  &lay2at  &lay2hash  &lay2doll  &lay2per
-&trans   &trans       &trans  &trans  &trans                  &lay2dq   &lay2lp  &lay2eq    &lay2rp    &lay2car
-&trans   &trans       &trans  &trans  &trans                  &lay2and  &lay2lb  &lay2com   &lay2rb    &lay2star
-&trans   &trans       &trans  &trans  &trans  &trans  &trans  &trans                                   &trans
+&kp TAB  &kp LS(TAB)  &trans     &trans  &trans                  &lay2exc  &lay2at  &lay2hash  &lay2doll  &lay2per
+&trans   &trans       &lay2doll  &trans  &trans                  &lay2dq   &lay2lp  &lay2eq    &lay2rp    &lay2car
+&trans   &trans       &trans     &trans  &trans                  &lay2and  &lay2lb  &lay2com   &lay2rb    &lay2star
+&trans   &trans       &trans     &trans  &trans  &trans  &trans  &trans                                   &trans
             >;
         };
 
