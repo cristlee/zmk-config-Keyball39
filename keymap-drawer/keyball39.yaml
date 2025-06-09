@@ -83,34 +83,34 @@ layers:
   SYM:
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab-reverse$$
-  - '#'
-  - $
-  - '%'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', s: '!'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '@'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '#'}
+  - {t: '$$mdi:minus-circle-outline$$', s: $}
+  - {t: '$$mdi:minus-circle-outline$$', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '"'
-  - (
-  - {t: '=', s: +}
-  - )
-  - ^
+  - {t: '$$mdi:minus-circle-outline$$', s: '"'}
+  - {t: '$$mdi:minus-circle-outline$$', s: (}
+  - {t: '$$mdi:minus-circle-outline$$', s: '='}
+  - {t: '$$mdi:minus-circle-outline$$', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&'
-  - {t: '[', s: '{'}
-  - {t: ',', s: <}
-  - {t: ']', s: '}'}
-  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', s: '&'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '['}
+  - {t: '$$mdi:minus-circle-outline$$', s: ','}
+  - {t: '$$mdi:minus-circle-outline$$', s: 'Gui+]'}
+  - {t: '$$mdi:minus-circle-outline$$', s: '*'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
