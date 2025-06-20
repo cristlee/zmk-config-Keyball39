@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -44,37 +45,34 @@
             compatible = "zmk,behavior-mod-morph";
             label = "RIGHT";
             #binding-cells = <0>;
-            bindings = <&mt RG(RIGHT_SHIFT) RIGHT>, <&kp L>;
+            bindings = <&mt RG(RIGHT_SHIFT) LG(L)>, <&kp RIGHT>;
 
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
         };
 
         up: up {
             compatible = "zmk,behavior-mod-morph";
             label = "UP";
             #binding-cells = <0>;
-            bindings = <&kp UP>, <&kp I>;
+            bindings = <&kp LG(I)>, <&kp UP>;
 
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
         };
 
         down: down {
             compatible = "zmk,behavior-mod-morph";
             label = "DOWN";
             #binding-cells = <0>;
-            bindings = <&kp DOWN>, <&kp K>;
+            bindings = <&kp LG(K)>, <&kp DOWN>;
 
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
         };
 
         l5n: l5n {
             compatible = "zmk,behavior-mod-morph";
             label = "L5N";
             #binding-cells = <0>;
-            bindings = <&kp LG(LEFT)>, <&kp N>;
+            bindings = <&kp LG(N)>, <&kp LEFT>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -84,7 +82,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5M";
             #binding-cells = <0>;
-            bindings = <&kp LG(RIGHT)>, <&kp M>;
+            bindings = <&kp LG(M)>, <&kp RIGHT>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -251,7 +249,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "L5HGRAVE";
             #binding-cells = <0>;
-            bindings = <&kp LG(GRAVE)>, <&kp H>;
+            bindings = <&kp LG(H)>, <&kp GRAVE>;
 
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
@@ -291,10 +289,9 @@
             compatible = "zmk,behavior-mod-morph";
             label = "LEFT";
             #binding-cells = <0>;
-            bindings = <&mt RG(RIGHT_CONTROL) LEFT>, <&kp J>;
+            bindings = <&mt RG(RIGHT_CONTROL) RG(J)>, <&kp LEFT>;
 
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
         };
 
         l5cmsl: l5cmsl {
