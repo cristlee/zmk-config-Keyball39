@@ -170,8 +170,8 @@ layers:
   - {t: Gui+Y, s: '`'}
   - {t: Gui+U, s: '~'}
   - {t: Gui+I, s: '$$mdi:arrow-up-bold$$'}
-  - {t: Gui+O, s: W}
-  - {t: Gui+P, s: Q}
+  - {t: Gui+O, s: PgUp}
+  - {t: Gui+P, s: PgDn}
   - {t: A, h: 'Gui+$$mdi:apple-keyboard-option$$', s: A}
   - {t: S, h: 'Gui+$$mdi:apple-keyboard-shift$$', s: S}
   - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C, type: held}
