@@ -249,7 +249,7 @@ layers:
   - {t: '5', s: '%'}
   - '~'
   - '|'
-  - +
+  - {t: '-', s: _}
   - {t: 'Gui+[', s: 'Gui+{'}
   - {t: 'Gui+]', s: 'Gui+}'}
   - {t: '6', s: ^}
@@ -258,9 +258,9 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '''', s: '"'}
-  - {t: '{', s: '$$mdi:arrow-left-bold$$'}
+  - '{'
   - _
-  - {t: '}', s: '$$mdi:arrow-right-bold$$'}
+  - '}'
   - ':'
   - $$mdi:apple-keyboard-caps$$
   - F14
@@ -269,7 +269,7 @@ layers:
   - $$mdi:volume-high$$
   - {t: '`', s: '~'}
   - <
-  - {t: '-', s: _}
+  - +
   - '>'
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
