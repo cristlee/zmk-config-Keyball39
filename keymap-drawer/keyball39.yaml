@@ -36,10 +36,10 @@ layers:
   - NUM
   - {t: '$$mdi:keyboard-tab$$', h: '&cmd5'}
   - {t: '$$mdi:keyboard-space$$', h: '&ctrl2'}
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-esc$$
   NUM:
   - '!'
   - '@'
