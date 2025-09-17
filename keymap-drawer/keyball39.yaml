@@ -36,10 +36,10 @@ layers:
   - NUM
   - {t: '$$mdi:keyboard-tab$$', h: '&cmd5'}
   - {t: '$$mdi:keyboard-space$$', h: '&ctrl2'}
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:mouse-right-click-outline$$
   NUM:
   - '!'
   - '@'
