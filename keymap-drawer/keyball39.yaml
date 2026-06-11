@@ -86,31 +86,31 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - {t: '$$mdi:minus-circle-outline$$', s: '@'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '#'}
-  - {t: '$$mdi:minus-circle-outline$$', s: $}
-  - {t: '$$mdi:minus-circle-outline$$', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', s: (}
-  - {t: '$$mdi:minus-circle-outline$$', s: '='}
-  - {t: '$$mdi:minus-circle-outline$$', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', s: '&'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '['}
-  - {t: '$$mdi:minus-circle-outline$$', s: ','}
-  - {t: '$$mdi:minus-circle-outline$$', s: ']'}
-  - {t: '$$mdi:minus-circle-outline$$', s: '*'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -262,11 +262,11 @@ layers:
   - {t: '-', s: _}
   - $$mdi:volume-high$$
   - ':'
-  - $$mdi:apple-keyboard-caps$$
-  - F14
-  - F15
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - <
   - +
