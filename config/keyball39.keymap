@@ -467,14 +467,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        mute {
-            bindings = <&kp K_MUTE>;
-            key-positions = <16 17 18 19>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         cmd5: lm {
@@ -587,8 +580,8 @@
             bindings = <
 &l5tabq  &l5stabw  &l5ef2  &l5rf3  &l5tf4                  &kp N1    &kp N2  &kp N3    &kp N4     &kp N5
 &l5a     &l5s      &l5dc   &l5vf   &l5gz                   &kp N6    &kp N7  &kp N8    &kp N9     &kp N0
-&l5zesc  &l5xq     &l5cw   &l5vq   &l5bbs                  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &none
-&trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans                                 &none
+&l5zesc  &l5xq     &l5cw   &l5vq   &l5bbs                  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &kp K_MUTE
+&trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans                                 &mt LC(LA(F2)) LC(LA(F1))
             >;
         };
 
