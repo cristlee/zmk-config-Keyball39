@@ -548,10 +548,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp TAB  &kp LS(TAB)  &trans     &trans  &trans                  &lay2exc  &lay2at  &lay2hash  &lay2doll  &lay2per
-&trans   &trans       &lay2doll  &trans  &trans                  &lay2dq   &lay2lp  &lay2eq    &lay2rp    &lay2car
-&trans   &trans       &trans     &trans  &trans                  &lay2and  &lay2lb  &lay2com   &lay2rb    &lay2star
-&trans   &trans       &trans     &trans  &trans  &trans  &trans  &trans                                   &trans
+&kp LC(TAB)  &kp LC(GRAVE)  &trans  &trans  &trans                  &kp EXCL  &lay2at  &lay2hash  &lay2doll  &lay2per
+&trans       &trans         &trans  &trans  &trans                  &lay2dq   &lay2lp  &lay2eq    &lay2rp    &lay2car
+&trans       &trans         &trans  &trans  &trans                  &lay2and  &lay2lb  &lay2com   &lay2rb    &lay2star
+&trans       &trans         &trans  &trans  &trans  &trans  &trans  &trans                                   &trans
             >;
         };
 
@@ -578,10 +578,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&l5tabq  &l5stabw  &l5ef2  &l5rf3  &l5tf4                  &kp N1    &kp N2  &kp N3    &kp N4     &kp N5
-&l5a     &l5s      &l5dc   &l5vf   &l5gz                   &kp N6    &kp N7  &kp N8    &kp N9     &kp N0
-&l5zesc  &l5xq     &l5cw   &l5vq   &l5bbs                  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &kp K_MUTE
-&trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans                                 &mt LC(LA(F2)) LC(LA(F1))
+&kp LG(TAB)  &kp LG(GRAVE)  &l5ef2     &l5rf3     &l5tf4                  &kp N1         &kp N2  &kp N3    &kp N4     &kp N5
+&l5a         &kp LC(C)      &kp LC(D)  &kp LC(V)  &l5gz                   &kp N6         &kp N7  &kp N8    &kp N9     &kp N0
+&l5zesc      &l5xq          &l5cw      &l5vq      &l5bbs                  &kp LEFT       &kp UP  &kp DOWN  &kp RIGHT  &kp K_MUTE
+&trans       &trans         &trans     &trans     &trans  &trans  &trans  &kp LG(ENTER)                               &mt LC(LA(F2)) LC(LA(F1))
             >;
         };
 
@@ -598,10 +598,10 @@
         layer_7 {
             label = "SN";
             bindings = <
-&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE         &kp PIPE       &kp UP_ARROW  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)
-&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &kp SINGLE_QUOTE  &kp LEFT       &kp DOWN      &kp RIGHT_ARROW       &kp COLON
-&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE         &kp LESS_THAN  &kp PLUS      &kp GREATER_THAN      &kp QUESTION
-&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                               &trans
+&kp N1    &kp N2   &kp N3   &kp N4             &kp N5                                     &kp TILDE         &kp PIPE           &kp PLUS   &kp RA(LEFT_ARROW)  &kp RA(RIGHT)
+&kp N6    &kp N7   &kp N8   &kp N9             &kp N0                                     &kp SINGLE_QUOTE  &kp C_VOLUME_DOWN  &kp MINUS  &kp C_VOLUME_UP     &kp COLON
+&kp CAPS  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                            &kp GRAVE         &kp LESS_THAN      &kp PLUS   &kp GREATER_THAN    &kp QUESTION
+&trans    &trans   &trans   &sk LEFT_GUI       &kp LEFT_SHIFT   &kp LEFT_CONTROL  &trans  &trans                                                              &trans
             >;
         };
     };
