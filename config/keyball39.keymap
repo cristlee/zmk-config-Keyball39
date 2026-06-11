@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -533,10 +534,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q           &kp W         &kp E    &kp R         &kp T                                    &kp Y        &kp U                &kp I      &kp O              &kp P
-&mt LEFT_ALT A  &mt LSHIFT S  &lt 5 D  &mt LCTRL F   &kp G                                    &kp H        &mt RIGHT_CONTROL J  &lt 5 K    &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
-&kp Z           &kp X         &kp C    &kp V         &kp B                                    &kp N        &kp M                &mkp LCLK  &kp DOT            &kp SLASH
-&mo 6           &kp CAPS      &mo 1    &bcmd5 0 TAB  &bctrl2 0 SPACE  &kp ESC  &kp BACKSPACE  &lt 7 ENTER                                                     &mkp RCLK
+&kp Q           &kp W         &kp E           &kp R        &kp T                                &kp Y        &kp U                &kp I            &kp O              &kp P
+&mt LEFT_ALT A  &mt LSHIFT S  &mt LEFT_GUI D  &mt LCTRL F  &kp G                                &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_GUI K  &mt RIGHT_SHIFT L  &mt RIGHT_ALT SEMI
+&kp Z           &kp X         &kp C           &kp V        &kp B                                &kp N        &kp M                &mkp LCLK        &kp DOT            &kp SLASH
+&mo 6           &kp CAPS      &mo 1           &lt 5 TAB    &lt 2 SPACE  &kp ESC  &kp BACKSPACE  &lt 7 ENTER                                                           &mkp RCLK
             >;
         };
 
