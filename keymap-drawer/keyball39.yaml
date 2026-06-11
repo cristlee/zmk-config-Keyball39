@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - {t: PgUp, h: '$$mdi:apple-keyboard-option$$'}
   - Z
   - X
   - C
@@ -29,8 +29,8 @@ layers:
   - N
   - M
   - $$mdi:mouse-left-click-outline$$
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - $$mdi:mouse-right-click-outline$$
+  - PgDn
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
   - NUM
@@ -39,7 +39,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:apple-keyboard-caps$$
   NUM:
   - '!'
   - '@'
