@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: PgUp, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
   - C
@@ -28,9 +28,9 @@ layers:
   - B
   - N
   - M
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
-  - PgDn
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
   - NUM
@@ -187,9 +187,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - {t: /, s: '?'}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - {t: ',', s: <}
   - .
   - {t: '$$mdi:transfer$$', type: trans}
