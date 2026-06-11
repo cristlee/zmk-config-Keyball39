@@ -81,19 +81,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab-reverse$$
+  - Ctl+$$mdi:keyboard-tab$$
+  - {t: Ctl+`, s: Ctl+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', s: '!'}
+  - '!'
   - {t: '$$mdi:minus-circle-outline$$', s: '@'}
   - {t: '$$mdi:minus-circle-outline$$', s: '#'}
   - {t: '$$mdi:minus-circle-outline$$', s: $}
   - {t: '$$mdi:minus-circle-outline$$', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', s: $}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', s: '"'}
@@ -162,8 +162,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SCROLL:
-  - {t: Gui+Q, s: '$$mdi:keyboard-tab$$'}
-  - {t: Gui+W, s: '$$mdi:keyboard-tab-reverse$$'}
+  - Gui+$$mdi:keyboard-tab$$
+  - {t: Gui+`, s: Gui+~}
   - {t: Gui+E, s: F2}
   - {t: Gui+R, s: F3}
   - {t: Gui+T, s: F4}
@@ -173,9 +173,9 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: A, h: 'Gui+$$mdi:apple-keyboard-option$$', s: A}
-  - {t: S, h: 'Gui+$$mdi:apple-keyboard-shift$$', s: S}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$', s: C}
-  - {t: F, h: 'Gui+$$mdi:apple-keyboard-control$$', s: V}
+  - Ctl+C
+  - Ctl+D
+  - Ctl+V
   - {t: Gui+G, s: Sft+Z}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
@@ -199,7 +199,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
   - {t: Ctl+Alt+F1, h: Ctl+Alt+F2}
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -249,18 +249,18 @@ layers:
   - {t: '5', s: '%'}
   - '~'
   - '|'
-  - $$mdi:arrow-up-bold$$
-  - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: 'Gui+}'}
+  - +
+  - AltGr+$$mdi:arrow-left-bold$$
+  - AltGr+$$mdi:arrow-right-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '''', s: '"'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:volume-low$$
+  - {t: '-', s: _}
+  - $$mdi:volume-high$$
   - ':'
   - $$mdi:apple-keyboard-caps$$
   - F14
