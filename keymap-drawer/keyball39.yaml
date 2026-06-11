@@ -164,29 +164,29 @@ layers:
   SCROLL:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
-  - {t: Gui+E, s: F2}
-  - {t: Gui+R, s: F3}
-  - {t: Gui+T, s: F4}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: A, h: 'Gui+$$mdi:apple-keyboard-option$$', s: A}
-  - Ctl+C
-  - Ctl+D
-  - Ctl+V
-  - {t: Gui+G, s: Sft+Z}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$', s: '$$mdi:keyboard-esc$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$', s: Ctl+Gui+Q}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$', s: W}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$', s: Q}
-  - {t: Gui+B, s: \}
+  - $$mdi:arrow-up-bold$$
+  - Alt+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - END
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
