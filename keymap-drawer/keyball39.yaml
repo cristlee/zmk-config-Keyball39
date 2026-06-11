@@ -33,7 +33,7 @@ layers:
   - {t: /, s: '?'}
   - SNIPE
   - $$mdi:apple-keyboard-caps$$
-  - NUM
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - $$mdi:keyboard-esc$$
@@ -73,7 +73,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - {t: ',', s: <}
+  - $$mdi:mouse-right-click-outline$$
   - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -200,7 +200,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
-  - {t: Ctl+Alt+F1, h: Ctl+Alt+F2}
+  - $$mdi:mouse-right-click-outline$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -258,9 +258,9 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '''', s: '"'}
-  - $$mdi:volume-low$$
+  - PgUp
   - {t: '-', s: _}
-  - $$mdi:volume-high$$
+  - PgDn
   - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
