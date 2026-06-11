@@ -167,11 +167,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
+  - Ctl+Sft+C
+  - Ctl+Sft+V
   - $$mdi:arrow-up-bold$$
-  - Alt+$$mdi:arrow-left-bold$$
-  - Alt+$$mdi:arrow-right-bold$$
+  - Alt+$$mdi:keyboard-tab$$
+  - {t: Alt+`, s: Alt+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - .
