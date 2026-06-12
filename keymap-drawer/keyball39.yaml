@@ -28,7 +28,7 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
+  - $$mdi:mouse-left-click-outline$$
   - .
   - {t: /, s: '?'}
   - SNIPE
@@ -167,8 +167,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+C
-  - Ctl+Sft+V
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - $$mdi:arrow-up-bold$$
   - Alt+$$mdi:keyboard-tab$$
   - {t: Alt+`, s: Alt+~}
@@ -177,30 +177,30 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - '"'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - END
+  - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '''', s: '"'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - .
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - {t: 'Gui+$$mdi:keyboard-return$$', h: LGUI}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:mouse-right-click-outline$$
   SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
