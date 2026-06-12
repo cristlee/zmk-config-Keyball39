@@ -548,10 +548,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans          &trans    &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &kp TILDE  &kp COLON       &kp PIPE  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &kp UNDERSCORE  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                       &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
         };
 
