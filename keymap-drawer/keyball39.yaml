@@ -165,8 +165,8 @@ layers:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
   - '#'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-5$$
+  - $$mdi:brightness-7$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:arrow-up-bold$$
@@ -176,7 +176,7 @@ layers:
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - $$mdi:keyboard-esc$$
   - '!'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
   - '"'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
