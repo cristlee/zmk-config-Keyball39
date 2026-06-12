@@ -164,19 +164,19 @@ layers:
   SCROLL:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:arrow-up-bold$$
-  - Alt+$$mdi:keyboard-tab$$
   - {t: Alt+`, s: Alt+~}
+  - Alt+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
-  - {t: Ctl+`, s: Ctl+~}
+  - Ctl+Sft+$$mdi:keyboard-tab$$
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '#'
+  - '!'
   - '"'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -261,7 +261,7 @@ layers:
   - PgUp
   - {t: '-', s: _}
   - PgDn
-  - '?'
+  - Gui+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
