@@ -181,15 +181,15 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - ':'
+  - $$mdi:mouse-right-click-outline$$
   - Alt+Ctl+F1
   - Ctl+Alt+F2
   - Ctl+Alt+F3
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '''', s: '"'}
   - '~'
-  - $$mdi:mouse-right-click-outline$$
+  - ':'
   - {t: ;, s: ':'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
