@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -578,8 +579,8 @@
             label = "SCROLL";
             bindings = <
 &kp LG(TAB)     &kp LG(GRAVE)    &kp HASH        &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC                           &kp C_VOLUME_DOWN   &kp C_VOLUME_UP  &kp UP_ARROW    &kp LA(GRAVE)  &kp LA(TAB)
-&kp LC(TAB)     &kp LC(LS(TAB))  &kp ESC         &kp EXCL              &kp ASTERISK                                   &kp DOUBLE_QUOTES   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT      &kp COLON
-&kp LA(LC(F1))  &kp LC(LA(F2))   &kp LC(LA(F3))  &trans                &trans                                         &kp SINGLE_QUOTE    &kp TILDE        &mkp RCLK       &kp SEMICOLON  &kp PIPE
+&kp LC(TAB)     &kp LC(LS(TAB))  &kp ESC         &kp EXCL              &kp ASTERISK                                   &kp DOUBLE_QUOTES   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT      &mkp RCLK
+&kp LA(LC(F1))  &kp LC(LA(F2))   &kp LC(LA(F3))  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                              &kp SINGLE_QUOTE    &kp TILDE        &kp COLON       &kp SEMICOLON  &kp PIPE
 &trans          &trans           &trans          &trans                &trans                &trans  &kp PRINTSCREEN  &mt LGUI LG(ENTER)                                                  &mkp MCLK
             >;
         };
