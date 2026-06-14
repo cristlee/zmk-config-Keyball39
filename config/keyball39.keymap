@@ -2,6 +2,7 @@
 #define SCROLL  1
 #define SNIPE   2
 #define SN      3
+#define MOUSE   4
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -64,6 +65,16 @@
 &kp N6  &kp N7  &kp N8  &kp N9        &kp N0                          &kp UNDERSCORE  &kp PAGE_UP    &kp MINUS  &kp PAGE_DOWN       &kp LG(W)
 &trans  &trans  &trans  &trans        &trans                          &none           &none          &none      &none               &none
 &trans  &trans  &trans  &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                        &trans
+            >;
+        };
+
+        mouse_layer {
+            label = "MOUSE";
+            bindings = <
+&trans  &trans     &trans     &trans     &trans                                         &trans  &trans     &trans     &trans     &trans
+&trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans                                         &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans     &trans     &trans     &trans                                         &trans  &trans     &trans     &trans     &trans
+&trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans                                                         &trans
             >;
         };
     };
