@@ -42,10 +42,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp LG(TAB)     &kp LG(GRAVE)   &kp HASH        &kp TILDE         &kp DOLLAR                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW    &kp LA(GRAVE)     &kp LA(TAB)
-&kp AT          &kp AMPERSAND   &kp EQUAL       &kp EXCL          &kp ASTERISK                                &kp DOUBLE_QUOTES     &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT         &kp SINGLE_QUOTE
-&kp LA(LC(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &trans          &trans          &trans            &trans             &trans  &kp PRINTSCREEN  &mt LGUI LG(ENTER)                                                             &mkp MCLK
+&kp LG(TAB)     &kp LG(GRAVE)   &kp HASH        &kp TILDE  &kp DOLLAR                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW    &kp LA(GRAVE)     &kp LA(TAB)
+&kp AT          &kp AMPERSAND   &kp EQUAL       &kp EXCL   &kp ASTERISK                           &kp DOUBLE_QUOTES     &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT         &kp SINGLE_QUOTE
+&kp LA(LC(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp CARET  &none                                  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans          &trans          &trans          &trans     &trans        &trans  &kp PRINTSCREEN  &mt LGUI LG(ENTER)                                                             &mkp MCLK
             >;
         };
 
@@ -63,7 +63,7 @@
             label = "SN";
             bindings = <
 &kp N1         &kp N2                &kp N3      &kp N4             &kp N5                           &kp GRAVE  &kp BACKSLASH  &kp PLUS   &kp RA(LEFT_ARROW)  &kp RA(RIGHT)
-&kp N6         &kp N7                &kp N8      &kp N9             &kp N0                           &kp PIPE   &kp PAGE_UP    &kp MINUS  &kp PAGE_DOWN       &kp EQUAL
+&kp N6         &kp N7                &kp N8      &kp N9             &kp N0                           &kp PIPE   &kp PAGE_UP    &kp MINUS  &kp PAGE_DOWN       &kp PERCENT
 &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                  &none      &none          &none      &none               &none
 &trans         &trans                &trans      &sk LEFT_GUI       &sk LEFT_SHIFT   &trans  &trans  &trans                                                   &trans
             >;
