@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
   - C
@@ -39,38 +39,38 @@ layers:
   - {t: 'Sft+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:keyboard-esc$$
   SCROLL:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
   - '#'
-  - $$mdi:brightness-5$$
-  - {t: ;, s: ':'}
+  - '~'
+  - $
   - (
   - )
   - $$mdi:arrow-up-bold$$
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
-  - Ctl+$$mdi:keyboard-tab$$
-  - Ctl+Sft+$$mdi:keyboard-tab$$
-  - _
+  - '@'
+  - '&'
+  - {t: '=', s: +}
   - '!'
   - '*'
   - '"'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '''', s: '"'}
   - Alt+Ctl+F1
   - Ctl+Alt+F2
   - Ctl+Alt+F3
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
-  - '~'
-  - ':'
-  - {t: ;, s: ':'}
-  - '|'
+  - '{'
+  - '}'
+  - _
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -136,11 +136,11 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - _
+  - '|'
   - PgUp
   - {t: '-', s: _}
   - PgDn
-  - Gui+W
+  - {t: '=', s: +}
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - $$mdi:volume-off$$
