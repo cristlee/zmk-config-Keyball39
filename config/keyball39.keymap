@@ -57,7 +57,7 @@
             >;
         };
 
-        layer_7 {
+        sn_layer {
             label = "SN";
             bindings = <
 &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                          &kp GRAVE       &kp BACKSLASH  &kp PLUS   &kp RA(LEFT_ARROW)  &kp RA(RIGHT)
