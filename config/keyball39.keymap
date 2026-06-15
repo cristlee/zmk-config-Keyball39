@@ -43,7 +43,7 @@
             label = "SCROLL";
             bindings = <
 &kp LG(TAB)     &kp LG(GRAVE)   &kp HASH        &kp TILDE  &kp DOLLAR                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UP_ARROW    &kp LA(GRAVE)     &kp LA(TAB)
-&kp AT          &kp AMPERSAND   &kp EQUAL       &kp EXCL   &kp ASTERISK                           &kp DOUBLE_QUOTES     &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT         &kp SINGLE_QUOTE
+&kp AT          &kp AMPERSAND   &kp EQUAL       &kp EXCL   &kp ASTERISK                           &kp SINGLE_QUOTE      &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT         &kp DOUBLE_QUOTES
 &kp LA(LC(F1))  &kp LC(LA(F2))  &kp LC(LA(F3))  &kp CARET  &none                                  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans          &trans          &trans          &trans     &trans        &trans  &kp PRINTSCREEN  &mt LGUI LG(ENTER)                                                             &mkp MCLK
             >;
