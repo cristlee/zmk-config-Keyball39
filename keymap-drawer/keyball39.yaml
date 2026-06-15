@@ -55,7 +55,7 @@ layers:
   - PgUp
   - '*'
   - '&'
-  - $$mdi:apple-keyboard-control$$
+  - ^
   - {t: '''', s: '"'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
