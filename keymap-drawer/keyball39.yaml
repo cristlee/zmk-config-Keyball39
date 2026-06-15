@@ -32,8 +32,8 @@ layers:
   - .
   - {t: /, s: '?'}
   - SNIPE
-  - HOME
-  - END
+  - Ctl+Sft+C
+  - Ctl+Sft+V
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
   - $$mdi:keyboard-space$$
   - {t: 'Sft+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -43,34 +43,34 @@ layers:
   SCROLL:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
-  - '#'
-  - '~'
-  - $
-  - (
-  - )
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:arrow-up-bold$$
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
-  - '@'
-  - '&'
-  - {t: '=', s: +}
-  - '!'
+  - PgDn
+  - PgUp
   - '*'
+  - '&'
+  - $$mdi:apple-keyboard-control$$
   - {t: '''', s: '"'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '"'
-  - Alt+Ctl+F1
-  - Ctl+Alt+F2
-  - Ctl+Alt+F3
-  - ^
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
   - '}'
   - _
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - (
+  - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -137,18 +137,18 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '|'
-  - PgUp
+  - (
   - {t: '-', s: _}
-  - PgDn
-  - '%'
+  - )
+  - '~'
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - HOME
+  - END
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
