@@ -56,11 +56,11 @@ layers:
   - {t: '=', s: +}
   - '!'
   - '*'
-  - '"'
+  - {t: '''', s: '"'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '''', s: '"'}
+  - '"'
   - Alt+Ctl+F1
   - Ctl+Alt+F2
   - Ctl+Alt+F3
