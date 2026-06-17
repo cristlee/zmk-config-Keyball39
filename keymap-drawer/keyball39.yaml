@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: SCROLL}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: RIGHT GUI}
+  - {t: D, h: SCROLL}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: SCROLL}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ;, h: SCROLL, s: ':'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - Z
   - X
   - C
@@ -34,8 +34,8 @@ layers:
   - SNIPE
   - Ctl+Sft+C
   - Ctl+Sft+V
-  - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
+  - $$mdi:keyboard-space$$
   - {t: 'Sft+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
@@ -51,16 +51,16 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
-  - {t: PgDn, type: held}
+  - PgDn
   - PgUp
-  - '*'
+  - {t: '*', type: held}
   - '&'
   - ^
   - {t: '''', s: '"'}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
   - $$mdi:arrow-right-bold$$
-  - {t: '"', type: held alternate}
+  - '"'
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -74,7 +74,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
@@ -194,8 +194,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
