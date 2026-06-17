@@ -35,7 +35,7 @@ layers:
   - Ctl+Sft+C
   - Ctl+Sft+V
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: 'Sft+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SN}
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
