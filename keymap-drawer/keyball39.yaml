@@ -41,26 +41,26 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SN}
   - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
   SCROLL:
-  - Gui+$$mdi:keyboard-tab$$
-  - {t: Gui+`, s: Gui+~}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - $$mdi:arrow-up-bold$$
-  - {t: Alt+`, s: Alt+~}
-  - Alt+$$mdi:keyboard-tab$$
-  - PgDn
-  - PgUp
-  - {t: '*', type: held}
-  - '&'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - ^
-  - {t: '''', s: '"'}
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
-  - $$mdi:arrow-right-bold$$
-  - '"'
+  - '&'
+  - {t: '*', type: held}
+  - (
+  - )
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*', type: held alternate}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -198,5 +198,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
