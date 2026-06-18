@@ -62,20 +62,20 @@
         sn_layer {
             label = "SN";
             bindings = <
-&kp N1  &kp N2  &kp PLUS   &kp N4        &kp N5                          &kp GRAVE  &kp BACKSLASH  &kp PAGE_UP    &kp RA(LEFT_ARROW)  &kp RA(RIGHT)
-&kp N6  &kp N7  &kp MINUS  &kp N9        &kp PIPE                        &kp PIPE   &kp HOME       &kp PAGE_DOWN  &kp END             &kp TILDE
-&none   &none   &kp EQUAL  &none         &none                           &kp HOME   &kp END        &kp EQUAL      &none               &none
-&trans  &trans  &trans     &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                       &trans
+&kp N1  &kp N2          &kp PLUS   &kp N4           &kp N5                          &kp GRAVE  &kp BACKSLASH     &kp PAGE_UP    &kp RA(LEFT_ARROW)  &kp RA(RIGHT)
+&kp N6  &kp LEFT_BRACE  &kp MINUS  &kp RIGHT_BRACE  &kp PIPE                        &kp HOME   &kp LEFT_BRACKET  &kp PAGE_DOWN  &kp RIGHT_BRACKET   &kp END
+&none   &none           &kp EQUAL  &none            &none                           &none      &none             &none          &none               &none
+&trans  &trans          &trans     &sk LEFT_GUI     &sk LEFT_SHIFT  &trans  &trans  &trans                                                          &trans
             >;
         };
 
         s3 {
             label = "S3";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)   &kp UP_ARROW  &trans     &trans                           &kp GRAVE         &kp BACKSLASH      &kp GRAVE             &kp LA(GRAVE)      &kp LA(TAB)
-&trans       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans                           &kp SQT           &kp SINGLE_QUOTE   &kp TILDE             &kp DOUBLE_QUOTES  &kp DOUBLE_QUOTES
-&trans       &trans          &trans        &trans     &trans                           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp RIGHT_BRACE    &kp CAPS
-&trans       &trans          &trans        &trans     &trans  &trans  &kp PRINTSCREEN  &kp LG(ENTER)                                                                 &mkp MCLK
+&kp LG(TAB)  &kp LG(GRAVE)     &kp UP_ARROW  &trans     &trans                           &kp GRAVE  &kp BACKSLASH  &kp UP            &kp LA(GRAVE)      &kp LA(TAB)
+&trans       &kp SINGLE_QUOTE  &kp TILDE     &kp RIGHT  &trans                           &kp PIPE   &kp LEFT       &kp DOWN          &kp RIGHT          &kp TILDE
+&trans       &trans            &trans        &trans     &trans                           &kp GRAVE  &kp BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp CAPS
+&trans       &trans            &trans        &trans     &trans  &trans  &kp PRINTSCREEN  &trans                                                         &mkp MCLK
             >;
         };
 
