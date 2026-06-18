@@ -42,10 +42,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp EXCL   &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp N1          &kp N2           &kp N3          &kp N4                &kp N5
-&kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp N6          &kp N7           &kp N8          &kp N9                &kp N0
-&none      &none          &none         &none                 &none                                  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans     &trans         &trans        &trans                &trans                 &trans  &trans  &kp LEFT_GUI                                                           &mkp MCLK
+&kp EXCL   &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp EXCLAMATION  &kp AT_SIGN      &kp HASH        &kp DOLLAR            &kp PERCENT
+&kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp CARET        &kp AMPERSAND    &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&none      &none          &none         &none                 &none                                  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans     &trans         &trans        &trans                &trans                 &trans  &trans  &kp LEFT_GUI                                                            &mkp MCLK
             >;
         };
 
@@ -72,10 +72,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)  &trans  &trans  &trans                           &kp GRAVE         &kp BACKSLASH      &kp TILDE       &kp LA(GRAVE)    &kp LA(TAB)
-&trans       &trans         &trans  &trans  &trans                           &kp SQT           &mkp LCLK          &kp ESC         &mkp RCLK        &kp DOUBLE_QUOTES
-&trans       &trans         &trans  &trans  &trans                           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp CAPS
-&trans       &trans         &trans  &trans  &trans  &trans  &kp PRINTSCREEN  &kp LG(ENTER)                                                         &mkp MCLK
+&kp LG(TAB)  &kp LG(GRAVE)   &kp UP_ARROW  &trans     &trans                           &kp GRAVE         &kp BACKSLASH      &kp GRAVE             &kp LA(GRAVE)      &kp LA(TAB)
+&trans       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans                           &kp SQT           &kp SINGLE_QUOTE   &kp TILDE             &kp DOUBLE_QUOTES  &kp DOUBLE_QUOTES
+&trans       &trans          &trans        &trans     &trans                           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp RIGHT_BRACE    &kp CAPS
+&trans       &trans          &trans        &trans     &trans  &trans  &kp PRINTSCREEN  &kp LG(ENTER)                                                                 &mkp MCLK
             >;
         };
 
