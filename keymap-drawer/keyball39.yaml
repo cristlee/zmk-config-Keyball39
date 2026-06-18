@@ -163,7 +163,7 @@ layers:
   S3:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
@@ -173,8 +173,8 @@ layers:
   - Alt+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
-  - '~'
-  - $$mdi:arrow-right-bold$$
+  - _
+  - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - $$mdi:arrow-left-bold$$
