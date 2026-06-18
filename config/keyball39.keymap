@@ -62,15 +62,15 @@
         sn_layer {
             label = "SN";
             bindings = <
-&kp N1  &kp N2  &kp PLUS   &kp N4        &kp N5                          &kp GRAVE  &kp BACKSLASH         &kp PLUS   &kp RA(LEFT_ARROW)     &kp RA(RIGHT)
-&kp N6  &kp N7  &kp MINUS  &kp N9        &kp PIPE                        &kp PIPE   &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&none   &none   &kp EQUAL  &none         &none                           &kp HOME   &kp END               &kp EQUAL  &none                  &none
-&trans  &trans  &trans     &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                             &trans
+&kp N1  &kp N2  &kp PLUS   &kp N4        &kp N5                          &kp GRAVE  &kp BACKSLASH  &kp PAGE_UP    &kp RA(LEFT_ARROW)  &kp RA(RIGHT)
+&kp N6  &kp N7  &kp MINUS  &kp N9        &kp PIPE                        &kp PIPE   &kp HOME       &kp PAGE_DOWN  &kp END             &kp TILDE
+&none   &none   &kp EQUAL  &none         &none                           &kp HOME   &kp END        &kp EQUAL      &none               &none
+&trans  &trans  &trans     &sk LEFT_GUI  &sk LEFT_SHIFT  &trans  &trans  &trans                                                       &trans
             >;
         };
 
-        mouse_layer {
-            label = "MOUSE";
+        s3 {
+            label = "S3";
             bindings = <
 &kp LG(TAB)  &kp LG(GRAVE)   &kp UP_ARROW  &trans     &trans                           &kp GRAVE         &kp BACKSLASH      &kp GRAVE             &kp LA(GRAVE)      &kp LA(TAB)
 &trans       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans                           &kp SQT           &kp SINGLE_QUOTE   &kp TILDE             &kp DOUBLE_QUOTES  &kp DOUBLE_QUOTES
