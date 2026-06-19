@@ -163,19 +163,19 @@ layers:
   S3:
   - Gui+$$mdi:keyboard-tab$$
   - {t: Gui+`, s: Gui+~}
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - {t: \, s: '|'}
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-7$$
+  - BRI INC
   - $$mdi:arrow-up-bold$$
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '''', s: '"'}
   - _
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F20
   - '|'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
