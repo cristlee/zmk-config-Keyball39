@@ -72,10 +72,10 @@
         s3 {
             label = "S3";
             bindings = <
-&kp LG(TAB)  &kp LG(GRAVE)     &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                           &kp C_BRI_DEC  &kp C_BRI_INC  &kp UP            &kp LA(GRAVE)      &kp LA(TAB)
-&none        &kp SINGLE_QUOTE  &kp UNDER   &kp DOUBLE_QUOTES  &kp F20                                &kp PIPE       &kp LEFT       &kp DOWN          &kp RIGHT          &kp TILDE
-&trans       &trans            &trans      &trans             &trans                                 &kp GRAVE      &kp BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp CAPS
-&trans       &trans            &trans      &trans             &trans        &trans  &kp PRINTSCREEN  &trans                                                             &mkp MCLK
+&kp LG(TAB)  &kp LG(GRAVE)  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP                           &kp GRAVE      &kp BACKSLASH  &kp TILDE       &kp SQT    &kp DOUBLE_QUOTES
+&trans       &kp C_BRI_DN   &kp UNDER   &kp C_BRI_UP       &kp F20                                &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT  &kp PIPE
+&trans       &trans         &trans      &trans             &trans                                 &kp LA(GRAVE)  &kp LA(TAB)    &kp UNDERSCORE  &kp CAPS   &kp ESC
+&trans       &trans         &trans      &trans             &trans        &trans  &kp PRINTSCREEN  &trans                                                   &mkp MCLK
             >;
         };
 
