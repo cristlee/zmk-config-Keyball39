@@ -32,8 +32,8 @@ layers:
   - .
   - {t: /, s: '?'}
   - SNIPE
-  - Ctl+Sft+C
-  - Ctl+Sft+V
+  - $$mdi:mouse-right-click-outline$$
+  - LGUI
   - {t: '$$mdi:keyboard-tab$$', h: MAIN}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
