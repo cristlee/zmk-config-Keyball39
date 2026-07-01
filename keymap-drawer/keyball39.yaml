@@ -168,9 +168,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
-  - PgUp
   - +
-  - {t: '-', s: _}
+  - PgUp
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - {t: '=', s: +}
@@ -178,13 +178,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '[', s: '{'}
-  - PgDn
+  - {t: '-', s: _}
   - {t: ']', s: '}'}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+C
-  - Ctl+Sft+V
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
