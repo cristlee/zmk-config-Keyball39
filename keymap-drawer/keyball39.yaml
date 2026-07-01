@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - .
+  - {t: ., h: MAIN}
   - {t: /, s: '?'}
   - SNIPE
   - $$mdi:mouse-right-click-outline$$
@@ -69,12 +69,12 @@ layers:
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
   - _
-  - '{'
+  - {t: '{', type: held}
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
