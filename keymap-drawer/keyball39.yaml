@@ -51,7 +51,7 @@ layers:
   - '~'
   - {t: '''', s: '"'}
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:brightness-7$$
   - $$mdi:keyboard-esc$$
   - $$mdi:brightness-5$$
@@ -69,8 +69,8 @@ layers:
   - {t: Alt+`, s: Alt+~}
   - Alt+$$mdi:keyboard-tab$$
   - _
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:keyboard-esc$$
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
