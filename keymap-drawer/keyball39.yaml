@@ -105,7 +105,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+C
   - Ctl+Sft+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -166,15 +166,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: '=', s: +}
   - {t: \, s: '|'}
   - +
   - PgUp
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '[', s: '{'}
