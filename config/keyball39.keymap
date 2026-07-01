@@ -51,10 +51,10 @@
 
         NUM {
             bindings = <
-&kp N1  &kp N2  &kp N3         &kp N4         &kp N5                  &trans  &trans     &trans  &trans     &trans
-&kp N6  &kp N7  &kp N8         &kp N9         &kp N0                  &trans  &mkp LCLK  &trans  &mkp RCLK  &trans
-&trans  &trans  &kp LC(LS(C))  &kp LC(LS(V))  &trans                  &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans         &trans         &trans  &trans  &trans  &trans                                &trans
+&kp N1  &kp N2  &kp N3         &kp N4         &kp N5                     &trans  &trans     &trans  &trans     &trans
+&kp N6  &kp N7  &kp N8         &kp N9         &kp N0                     &trans  &mkp LCLK  &trans  &mkp RCLK  &trans
+&trans  &trans  &kp LC(LS(C))  &kp LC(LS(V))  &kp EQUAL                  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans         &trans         &trans     &trans  &trans  &trans                                &trans
             >;
 
             label = "NUM";
@@ -73,10 +73,10 @@
         RH {
             label = "RH";
             bindings = <
-&trans  &trans          &trans     &trans           &trans                          &kp GRAVE  &kp BACKSLASH     &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
-&trans  &kp LEFT_BRACE  &kp EQUAL  &kp RIGHT_BRACE  &trans                          &kp HOME   &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &kp END
-&trans  &trans          &trans     &trans           &trans                          &trans     &trans            &trans     &trans             &trans
-&trans  &trans          &trans     &sk LCTRL        &sk LEFT_SHIFT  &trans  &trans  &trans                                                     &trans
+&trans  &trans  &trans     &trans     &trans                          &kp EQUAL  &kp BACKSLASH     &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
+&trans  &trans  &kp EQUAL  &trans     &trans                          &kp HOME   &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &kp END
+&trans  &trans  &trans     &trans     &trans                          &trans     &trans            &trans     &trans             &trans
+&trans  &trans  &trans     &sk LCTRL  &sk LEFT_SHIFT  &trans  &trans  &trans                                                     &trans
             >;
         };
 
