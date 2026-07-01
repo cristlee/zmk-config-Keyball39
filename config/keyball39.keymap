@@ -73,10 +73,10 @@
         RH {
             label = "RH";
             bindings = <
-&trans  &trans          &trans         &trans           &trans                          &kp GRAVE  &kp BACKSLASH     &kp PAGE_UP    &kp PLUS           &kp MINUS
-&trans  &kp LEFT_BRACE  &kp EQUAL      &kp RIGHT_BRACE  &trans                          &kp HOME   &kp LEFT_BRACKET  &kp PAGE_DOWN  &kp RIGHT_BRACKET  &kp END
-&trans  &trans          &kp LC(LS(C))  &kp LC(LS(V))    &trans                          &trans     &trans            &trans         &trans             &trans
-&trans  &trans          &trans         &sk LCTRL        &sk LEFT_SHIFT  &trans  &trans  &trans                                                         &trans
+&trans  &trans          &trans     &trans           &trans                          &kp GRAVE  &kp BACKSLASH     &kp PLUS   &kp PAGE_UP        &kp PAGE_DOWN
+&trans  &kp LEFT_BRACE  &kp EQUAL  &kp RIGHT_BRACE  &trans                          &kp HOME   &kp LEFT_BRACKET  &kp MINUS  &kp RIGHT_BRACKET  &kp END
+&trans  &trans          &trans     &trans           &trans                          &trans     &trans            &trans     &trans             &trans
+&trans  &trans          &trans     &sk LCTRL        &sk LEFT_SHIFT  &trans  &trans  &trans                                                     &trans
             >;
         };
 
